@@ -1,0 +1,1873 @@
+{
+    "Aatrox": {
+      "id": "Aatrox",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Con pasiva, el próximo básico hace más daño y lo cura.",
+      "spellsDescription": {
+        "Aatrox_q": "Q: Hace un golpe hacia enfrente, se activa tres veces.",
+        "Aatrox_w": "W: Tira una cadena que si atrapa un enemigo y no sale del rango rápido lo devuelve al centro.",
+        "Aatrox_e": "E: Pequeño desplazamiento.",
+        "Aatrox_r": "R: Asusta minions, aumenta daño, curación y velocidad de movimiento. Derribos aumentan duración."
+      }
+    },
+    "Ahri": {
+      "id": "Ahri",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Se cura al matar 9 minions o hacer un derribo.",
+      "spellsDescription": {
+        "Ahri_q": "Q: Tira un orbe que hace daño de ida y de vuelta.",
+        "Ahri_w": "W: Velocidad de movimiento, lanza tres llamas a enemigos cercanos.",
+        "Ahri_e": "E: Lanza un beso, si golpea un enemigo lo atrae.",
+        "Ahri_r": "R: Hace tres desplazamientos, recibe otro extra por participación en derribo."
+      }
+    },
+    "Akali": {
+      "id": "Akali",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Golpear con una habilidad deja un aro alrededor del enemigo, salir de este le da un básico con más daño y rango.",
+      "spellsDescription": {
+        "Akali_q": "Q: Lanza kunais que hacen daño y ralentizan.",
+        "Akali_w": "W: Bomba de humo que la vuelve invisible.",
+        "Akali_e": "E: Da una voltereta hacia atrás tirando shuriken al frente, si golpea a alguien puede saltar hacia él.",
+        "Akali_r": "R: Dos activas, primera atraviesa un enemigo. Segunda: Salto en cualquier dirección. Hace daño."
+      }
+    },
+    "Akshan": {
+      "id": "Akshan",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Cada tres impactos hace más daño, si es a un campeón se pone escudo.",
+      "spellsDescription": {
+        "Akshan_q": "Q: Tira un bumeran, golpear un objetivo extiende su rango.",
+        "Akshan_w": "W: Lo vuelve invisible, cerca de muros o arbustos es infinito.",
+        "Akshan_e": "E: Se agarra a una pared y puede desplazarse si no choca.",
+        "Akshan_r": "R: Carga disparos a largo alcance, se pueden bloquear con torres u otros enemigos."
+      }
+    },
+    "Alistar": {
+      "id": "Alistar",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Cuando carga la pasiva (minions cercanos mueren o aturdir enemigos), cura a un aliado.",
+      "spellsDescription": {
+        "Alistar_q": "Q: Levanta todos los objetivos cercanos.",
+        "Alistar_w": "W: Empuja un objetivo.",
+        "Alistar_e": "E: Cargar estando cerca de enemigos, cuando carga el siguiente básico aturde.",
+        "Alistar_r": "R: Se libera de aturdimientos al activar y reduce todo el daño que reciba."
+      }
+    },
+    "Ambessa": {
+      "id": "Ambessa",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Después de usar una habilidad dar un click rápido la desplaza a esa dirección.",
+      "spellsDescription": {
+        "Ambessa_q": "Q: Latigazo al frente, si golpea un objetivo puede lanzar otro.",
+        "Ambessa_w": "W: Golpea el suelo y se coloca un escudo",
+        "Ambessa_e": "E: Golpe giratorio, si usa pasiva se realiza otro golpe giratorio.",
+        "Ambessa_r": "R: Salta a un enemigo y lo aturde. Sus habilidades la curan y hacen mas daño."
+      }
+    },
+    "Amumu": {
+      "id": "Amumu",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Marca un objetivo con un básico y estos reciben más daño.",
+      "spellsDescription": {
+        "Amumu_q": "Q: Lanza una venda, si golpea un objetivo se desplaza hacia él.",
+        "Amumu_w": "W: Llora y hace daño alrededor.",
+        "Amumu_e": "E: Arañazo rápido que hace daño.",
+        "Amumu_r": "R: Daña y aturde todos los objetivos cercanos."
+      }
+    },
+    "Anivia": {
+      "id": "Anivia",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: En vez de morir se convierte en huevo que puede renacer.",
+      "spellsDescription": {
+        "Anivia_q": "Q: Lanza esfera de hielo que se puede estallar, aturde los objetivos en esa área.",
+        "Anivia_w": "W: Crea un muro.",
+        "Anivia_e": "E: Lanza una estaca, si golpeas con otra habilidad antes hace más daño.",
+        "Anivia_r": "R: Crea tormenta que hace más daño y ralentiza."
+      }
+    },
+    "Annie": {
+      "id": "Annie",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Consigue cargas usando habilidades, al tener cuatro su siguiente habilidad aturde.",
+      "spellsDescription": {
+        "Annie_q": "Q: Lanza bola de fuego, si ejecuta al objetivo restaura el maná utilizado.",
+        "Annie_w": "W: Lanza fuego hacia el frente.",
+        "Annie_e": "E: Da un escudo y velocidad de movimiento, si un enemigo lo golpea se hace daño.",
+        "Annie_r": "R: Invoca un oso gigante que ataca."
+      }
+    },
+    "Aphelios": {
+      "id": "Aphelios",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Tiene cinco armas, solo usa dos y cuando se gastan pasan a la siguiente",
+      "spellsDescription": {
+        "Aphelios_q": "Q: Usa la habilidad de su arma equipada.",
+        "Aphelios_w": "W: Intercamvia entre sus dos armas para usarlas.",
+        "Aphelios_e": "E: Indica su siguiente arma.",
+        "Aphelios_r": "R: Lanza onda de luz que tiene el efecto de su arma equipada."
+      }
+    },
+    "Ashe": {
+      "id": "Ashe",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Habla mucho y sus básicos y habilidades ralentizan.",
+      "spellsDescription": {
+        "Ashe_q": "Q: Se activa al realizar cuatro ataques básicos. Activada sus básicos ahora golpean en rafaga.",
+        "Ashe_w": "W: Tira muchas flechas en cono que ralentizan.",
+        "Ashe_e": "E: Arroja un pájaro a cualquier zona del mapa, revela todo su recorrido.",
+        "Ashe_r": "R: Una flecha con alcance infinito que aturde al primer campeón enemigo alcanzado."
+      }
+    },
+    "AurelionSol": {
+      "id": "AurelionSol",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Al hacer daño evoluciona sus habilidades.",
+      "spellsDescription": {
+        "AurelionSol_q": "Q: Lanza un rayo, si carga hace daño extra. Evolucionada hace más daño.",
+        "AurelionSol_w": "W: Vuela y hace más daño. Evolucionada vuela más.",
+        "AurelionSol_e": "E: Deja un agujero negro que ejecuta si el objetivo tiene poca vida. Evolucionada es más grande.",
+        "AurelionSol_r": "R: Hace que caiga una estrella que aturde. Evolucionada explota."
+      }
+    },
+    "Aurora": {
+      "id": "Aurora",
+      "roles": ["Mid", "Top"],
+      "passiveDescription": "Pasiva: Cada tres impactos se cura y corre más.",
+      "spellsDescription": {
+        "Aurora_q": "Q: Dispara un misil que puede regresar si golpea.",
+        "Aurora_w": "W: La hace invisible.",
+        "Aurora_e": "E: Daña y ralentiza objetivos frente a ella.",
+        "Aurora_r": "R: Atrapa objetivos en un área, si salen se ralentizan."
+      }
+    },
+    "Azir": {
+      "id": "Azir",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Revive una torreta.",
+      "spellsDescription": {
+        "Azir_q": "Q: Envia todos sus soldados a esa ubicación.",
+        "Azir_w": "W: Invoca un soldado.",
+        "Azir_e": "E: Se desplaza hacia el soldado seleccionado.",
+        "Azir_r": "R: Invoca un muro de soldados que empujan enemigos hacia una dirección."
+      }
+    },
+    "Bard": {
+      "id": "Bard",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Junta campanas por el mapa, dan daño, velocidad y experiencia.",
+      "spellsDescription": {
+        "Bard_q": "Q: Tira proyectil que ralentiza, si golpea otro objetivo o muro aturde a ambos.",
+        "Bard_w": "W: Invoca un santuario que cura y aumenta velocidad de movimiento, si carga cura más.",
+        "Bard_e": "E: Abre portal a través de un muro, todos los campeónes pueden usarlo.",
+        "Bard_r": "R: Vuelve invulnerables todas las torretas y unidades en el área."
+      }
+    },
+    "Belveth": {
+      "id": "Belveth",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Usar una habilidad aumenta velocidad de ataque de sus próximos dos ataques.",
+      "spellsDescription": {
+        "Belveth_q": "Q: Tiene cuatro direcciones para desplazarse y hace daño.",
+        "Belveth_w": "W: Levanta objetivos enfrente y puede usar la Q de nuevo en esa dirección.",
+        "Belveth_e": "E: Golpea a su ardededor, reduce el daño que recibe y gana robo de vida.",
+        "Belveth_r": "R: Come almas de enemigos o monstruos del vacio derribados, comer hace daño, la cura y puede saltar muros por poco tiempo."
+      }
+    },
+    "Blitzcrank": {
+      "id": "Blitzcrank",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Cuando tiene poca vida le sale un escudo.",
+      "spellsDescription": {
+        "Blitzcrank_q": "Q: Tira un gancho para jalar.",
+        "Blitzcrank_w": "W: Velocidad de movimiento y de ataque.",
+        "Blitzcrank_e": "E: Levanta a su objetivo con un puñetazo.",
+        "Blitzcrank_r": "R: Rompe todos los escudos cercanos, silencia y hace daño."
+      }
+    },
+    "Brand": {
+      "id": "Brand",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Sus habilidades queman, si pega tres habilidades sale un aro que explota.",
+      "spellsDescription": {
+        "Brand_q": "Q: Tira bola de fuego, si el objetivo se quemaba entonces lo aturde.",
+        "Brand_w": "W: Crea una columna de fuego, si el objetivo se quemaba recibe más daño.",
+        "Brand_e": "E: Quema, si el objetivo se quemaba entonce quema a su alrededor.",
+        "Brand_r": "R: Dispara una bola de fuego que quema y rebota a los objetivos cercanos."
+      }
+    },
+    "Braum": {
+      "id": "Braum",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Marca al objetivo, cada básico de su equipo sobre el objetivo añade cargas, con cuatro se aturde.",
+      "spellsDescription": {
+        "Braum_q": "Q: Lanza un hielo que aplica su pasiva.",
+        "Braum_w": "W: Salta hacia un subdito o campeón aliado.",
+        "Braum_e": "E: Coloca su escudo en una dirección y bloquea todos los proyectiles, reduce el daño recibido.",
+        "Braum_r": "R: Golpea el suelo y levanta por los aires todos los objetivos golpeados."
+      }
+    },
+    "Briar": {
+      "id": "Briar",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: No se regenera la vida automáticamente pero todos sus ataques le regeneran vida.",
+      "spellsDescription": {
+        "Briar_q": "Q: Salta a un objetivo y lo aturde.",
+        "Briar_w": "W: Da un pequeño salto y se empieza a jugar sola, ataca al campeón más cercano.",
+        "Briar_e": "E: Cancela la W y mientras se mantiene presionado recupera vida y reduce el daño recibido.",
+        "Briar_r": "R: Tira un misil de largo alcance, si golpea un enemigo se lanza hasta él en modo W."
+      }
+    },
+    "Caitlyn": {
+      "id": "Caitlyn",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Cada séptimo básico dispara a la cabeza (Más daño), golpear en un arbusto cuenta por dos.",
+      "spellsDescription": {
+        "Caitlyn_q": "Q: Lanza un disparo que atraviesa, hace más daño al primer objetivo.",
+        "Caitlyn_w": "W: Deja una trampa en el suelo, si un campeón la pisa activa la pasiva y da más rango.",
+        "Caitlyn_e": "E: Se impulsa hacia atrás lanzando una red al frente, activa la pasiva si la red golpea un objetivo y más rango.",
+        "Caitlyn_r": "R: Carga un disparo a larga distancia que no se puede fallar, otro campeón puede interceptarlo."
+      }
+    },
+    "Camille": {
+      "id": "Camille",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: El próximo básico otorga un escudo mágico o físico dependiendo de a quien ataque.",
+      "spellsDescription": {
+        "Camille_q": "Q: El siguiente básico aumenta un poco el daño y velocidad de movimiento, empieza a cargar y si se utiliza hace daño verdadero.",
+        "Camille_w": "W: Golpea al frente en forma de cono, si golpea en la mitad exterior ralentiza y reciben más daño.",
+        "Camille_e": "E: Se lanza hacia la pared, si lanza de nuevo se va hacia la dirección del ratón, colisionar con un campión lo aturde.",
+        "Camille_r": "R: Atrapa un objetivo en un área y aumenta un poco el daño."
+      }
+    },
+    "Cassiopeia": {
+      "id": "Cassiopeia",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Gana velocidad de movimiento por nivel, NO puede comprar botas.",
+      "spellsDescription": {
+        "Cassiopeia_q": "Q: Escupe veneno en una pequeña área, golpear un campeón enemigo le da velocidad de movimiento.",
+        "Cassiopeia_w": "W: Escupe veneno que ralentizan y no permite a los campeónes enemigo usar habilidades de desplazamiento.",
+        "Cassiopeia_e": "E: Lanza un golpe, si el objetivo tiene veneno hace daño adicional y si muere recupera maná.",
+        "Cassiopeia_r": "R: Lanza un rayo petrificador hacia el frente que aturde a los enemigos que la están viendo."
+      }
+    },
+    "Chogath": {
+      "id": "Chogath",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Restaura vida y maná al eliminar un objetivo.",
+      "spellsDescription": {
+        "Chogath_q": "Q: Levanta todos los objetivos en una ubicación seleccionada.",
+        "Chogath_w": "W: Silencia y daña a todos los campeónes enemigos frente a él.",
+        "Chogath_e": "E: Potencia los básicos, ralentizan y hacen daño en área.",
+        "Chogath_r": "R: Hace mucho daño, si se come al objetivo crece y gana vida."
+      }
+    },
+    "Corki": {
+      "id": "Corki",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Una parte del daño de básicos se convierte en verdadero.",
+      "spellsDescription": {
+        "Corki_q": "Q: Lanza una bomba que causa daño y revela a las unidades golpeados.",
+        "Corki_w": "W: Un desplazamiento que deja fuego en el suelo.",
+        "Corki_e": "E: Realiza muchos disparos de corto rango hacia en frente que reduce las resistencias de los campeónes alcanzados.",
+        "Corki_r": "R: Dispara un cohete hacia el frente, cada tercer misil sale potenciado."
+      }
+    },
+    "Darius": {
+      "id": "Darius",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Hace que se desangren los enemigos, se acumula hasta cinco. Cuando todas sus marcas, darius se enoja y aplica el máximo marcas a sus objetivos.",
+      "spellsDescription": {
+        "Darius_q": "Q: Lanza golpe circular, golpear con la zona exterior aplica una carga de la pasiva y lo cura.",
+        "Darius_w": "W: El siguiente básico ralentiza al objetivo.",
+        "Darius_e": "E: Jala todos los objetivos en un rango medio hacia en frente y les ignora parte de la armadura.",
+        "Darius_r": "R: Salta hacia un objetivo y le hace mucho daño entre más cargas tiene, si ejecuta al objetivo puede volver a utilizar esta habilidad."
+      }
+    },
+    "Diana": {
+      "id": "Diana",
+      "roles": ["Mid", "Jg"],
+      "passiveDescription": "Pasiva: Cada tercer básico es en área y con daño adicional.",
+      "spellsDescription": {
+        "Diana_q": "Q: Lanza un golpe de rango en forma de media luna y marca enemigos alcanzados.",
+        "Diana_w": "W: Se pone un escudo y tres esferas giran alrededor, estas golpean y hacen daño.",
+        "Diana_e": "E: Salta hacia un enemigo, si están marcados por la Q, puede usar el salto de nuevo.",
+        "Diana_r": "R: Atrae a todos los enemigos cercanos, después de un corto tiempo los ralentiza y les hace daño."
+      }
+    },
+    "Draven": {
+      "id": "Draven",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Draven obtiene cargas cuando atrapa un hacha o elimina cualquier objetivo, Si elimina un campeón estas cargas se convierten en oro pero si él muere pierde gran parte de estas.",
+      "spellsDescription": {
+        "Draven_q": "Q: Le da un hacha, lanza hachas con sus básicos. Los básicos con hachas incrementa el daño.",
+        "Draven_w": "W: Velocidad de movimiento.",
+        "Draven_e": "E: Lanza un par de hachas hacia el frente que aparta y ralentizan los obetivos alcanzados.",
+        "Draven_r": "R: Lanza hachas hasta el límite del mapa, colisionar con un campeón o presionar la habilidad de nuevo. Si el campeón tiene menos vida que cargas de pasiva es ejecutado"
+      }
+    },
+    "DrMundo": {
+      "id": "DrMundo",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Resiste el siguiente efecto inmovilizador y deja caer un vial, recogerlo le regenera vida y reduce el enfriamiento de la pasiva.",
+      "spellsDescription": {
+        "DrMundo_q": "Q: Lanza un serrucho, cura una parte si golpea un campeón.",
+        "DrMundo_w": "W: Dura poco tiempo y regenera vida al final que le quiten durante la duración.",
+        "DrMundo_e": "E: Golpea fuerte, si ejecuta al objetivo lo empuja y hace daño por donde pase.",
+        "DrMundo_r": "R: Regenera vida y da velocidad de movimiento y daño de ataque."
+      }
+    },
+    "Ekko": {
+      "id": "Ekko",
+      "roles": ["Mid", "Jg"],
+      "passiveDescription": "Pasiva: Cada tres ataques al mismo objetivo le da daño adicional y también velocidad de movimiento si es un campeón.",
+      "spellsDescription": {
+        "Ekko_q": "Q: Lanza una granada temporal que ralentiza y hace daño a todos los objetivos en su camino, también golpea de vuelta.",
+        "Ekko_w": "W: Lanza una convergencia que tras poco tiempo crea una cúpula que ralentiza a los enemigos, si ekko toca esta cúpula aturde todos los objetivos dentro.",
+        "Ekko_e": "E: Realiza un salto y su siguiente ataque básico se puede lanzar con rango, causa daño adicional y lo deja junto al objetivo.",
+        "Ekko_r": "R: Vuelve unos segundos en el tiempo, a una posición en la que se encontraba anteriormente y se cura parte de su vida."
+      }
+    },
+    "Elise": {
+      "id": "Elise",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Forma Humaná: Usando habilidades sobre enemigos regenera arañas que puede sacar. Forma Arácnida: Hace más daño y se cura.",
+      "spellsDescription": {
+        "Elise_q": "Q: Forma Humaná: inflige daño según la vida actual del objetivo. Forma Arácnida: muerde un enemigo e inflige más daño entre menos vida tenga.",
+        "Elise_w": "W: Forma Humaná: Lanza araña gigante a un objetivo y explota. Forma Arácnida: Aumenta velocidad de ataque, también afecta a las arañitas.",
+        "Elise_e": "E: Forma Humaná: Lanza telaraña que aturde. Forma Arácnida: Se lanza hacia el aire, se vuelve inseleccionable y luego puede caer sobre un objetivo neutral, enemigo o su misma posición.",
+        "Elise_r": "R: Intercambia entre forma araña(sin rango) y humaná(con rango), al convertirse en araña invoca máximo tres arañas."
+      }
+    },
+    "Evelynn": {
+      "id": "Evelynn",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Después de nivel 6, al no estar en combate se vuelve invisible y se cura cuando su vida está baja.",
+      "spellsDescription": {
+        "Evelynn_q": "Q: Lanza un látigo en una dirección y luego tres púas hacia el objetivo más cercano.",
+        "Evelynn_w": "W: Maldice a un objetivo, si se carga completamente y lo ataca es atrido y si no ha cargado completamente ralentiza al objetivo.",
+        "Evelynn_e": "E: Salta y azota al objetivo lo que hace daño y da velocidad de movimiento.",
+        "Evelynn_r": "R: Se vuelve invulnerable, hace daño a todo lo que tenga enfrente y salta hacia atrás."
+      }
+    },
+    "Ezreal": {
+      "id": "Ezreal",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Obtiene una carga que da velocidad de ataque cuando acierta una habilidad. Máximo cinco cargas.",
+      "spellsDescription": {
+        "Ezreal_q": "Q: Lanza un rayo que si acierta reduce el enfriamiento de sus habilidades.",
+        "Ezreal_w": "W: Dispara un orbe que se pega al primer campeón o estructura acertados, su próximo ataque lo detona y causa daño adicional.",
+        "Ezreal_e": "E: Teletransporta a una ubicación cercana y dispara un rayo dirigido al objetivo más cercano o marcado por la W.",
+        "Ezreal_r": "R: Lanza una ráfaga de energía que hace daño y tiene rango infinito."
+      }
+    },
+    "Fiddlesticks": {
+      "id": "Fiddlesticks",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Deja espantapájaros en lugar de wards.",
+      "spellsDescription": {
+        "Fiddlesticks_q": "Q: Lanza una bola que asusta al objetivo, si el objetivo no tiene visión nuestra y le tiramos cualquier habilidad se asustará.",
+        "Fiddlesticks_w": "W: Chupa vida de todo lo que tiene alrededor (No se puede mover) y al final chupa más.",
+        "Fiddlesticks_e": "E: Hace un corte que ralentiza, en el centro también silencia.",
+        "Fiddlesticks_r": "R: Salta hacia una ubicación cercana y alrededor vuelan cuervos que hacen daño a las unidades cercanas."
+      }
+    },
+    "Fiora": {
+      "id": "Fiora",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Revela un punto vital de un campeón enemigo, atacarlo por ese sitio hace daño verdadero, recupera vida y da velocidad de movimiento.",
+      "spellsDescription": {
+        "Fiora_q": "Q: Hace un pequeño desplazamiento y al final realiza un golpe.",
+        "Fiora_w": "W: Bloquea todo el daño y aturdimientos, si le lanzan un aturdimiento mientras utiliza esta habilidad lo puede devolver.",
+        "Fiora_e": "E: Tiene dos ataque potenciados, el primero ralentiza y el segundo asesta golpe crítico.",
+        "Fiora_r": "R: Revela los cuatro puntos vitales de un campeón enemigo, si los golpea todos aparece un área que cura a todos los aliados dentro."
+      }
+    },
+    "Fizz": {
+      "id": "Fizz",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Puede moverse a través de minions y reduce un poco cualquier daño recibido.",
+      "spellsDescription": {
+        "Fizz_q": "Q: Salta y atraviesa un objetivo y le hace daño.",
+        "Fizz_w": "W: Pasiva: el objetivo se desangra. Activa: si el objetivo muere se reinicia el enfriamiento y regenera el maná gastado, sino, aumenta el daño que recibe.",
+        "Fizz_e": "E: Salta al aire y se vuelve invulnerable, luego cae en el suelo y hace daño en el área.",
+        "Fizz_r": "R: Lanza un tiburón (entre más distancia más grande) que se pega al primer campeón alcanzado, esto lo ralentiza y luego sale un tiburón que hace daño en el área."
+      }
+    },
+    "Galio": {
+      "id": "Galio",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Básico con más daño y en área.",
+      "spellsDescription": {
+        "Galio_q": "Q: Lanza dos ráfagas de viento que hacen más daño donde colisionan.",
+        "Galio_w": "W: Pasiva: le da un escudo de magia. Activa: Camina lento, reduce el daño recibido y al finalizar provocará a los enemigos cercanos.",
+        "Galio_e": "E: Retrocede y salta hacia el frente, aturdiendo al primer campeón enemigo alcanzado.",
+        "Galio_r": "R: Salta sobre un aliado, le coloca un escudo mágico y al caer levanta todos los enemigos cercanos."
+      }
+    },
+    "Gangplank": {
+      "id": "Gangplank",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Deja quemando a los enemigos con un básico.",
+      "spellsDescription": {
+        "Gangplank_q": "Q: Dispara una bala a un objetivo, si muere le dan monedas para mejorar habilidades. Funciona disparando a un barril.",
+        "Gangplank_w": "W: Se come una naranjita que le quita cualquier aturdimiento.",
+        "Gangplank_e": "E: Coloca barriles que al romperlos hacen daño en área y reinician la pasiva. Explotar un barril detona otros conectados.",
+        "Gangplank_r": "R: Hace que lluevan disparos sobre un área en cualquier lugar del mapa. Esto ralentiza y hace daño"
+      }
+    },
+    "Garen": {
+      "id": "Garen",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Si no ha recibido daño se empieza a curar.",
+      "spellsDescription": {
+        "Garen_q": "Q: Le da velocidad de movimiento, su siguiente básico silencia.",
+        "Garen_w": "W: Pasiva: Recibe resistencias. Activa: Gana un escudo y tenacidad por poco tiempo.",
+        "Garen_e": "E: Da vueltas y hace daño en área.",
+        "Garen_r": "R: Hace DEMACIA, y cae una espada sobre el campeón enemigo con daño verdadero."
+      }
+    },
+    "Gnar": {
+      "id": "Gnar",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Hacer daño o recibirlo carga furia, al estár al máximo se transforma en mega gnar al usar su siguiente habilidad.",
+      "spellsDescription": {
+        "Gnar_q": "Q: Mini-gnar: Lanza un bumeran que hace daño si lo atrapa baja el enfriamiento. Mega-gnar: Lanza una piedra que se puede ir a recoger.",
+        "Gnar_w": "W: Mini-gnar: Cada tres básicos al mismo objetivo hace más daño y da velocidad de movimiento. Mega-gnar: Golpea el suelo frente a él y aturde.",
+        "Gnar_e": "E: Mini-gnar: Salta, si hay algún objetivo rebota y hace un segundo salto. Mega-gnar: Salta y ralentiza al caer.",
+        "Gnar_r": "R: Mini-gnar: Decoración. Mega-gnar: Empuja todos los enemigos cercanos en una dirección, los que choquen con la pared quedan aturdidos."
+      }
+    },
+    "Gragas": {
+      "id": "Gragas",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Cuando carga la pasiva su siguiente habilidad lo cura.",
+      "spellsDescription": {
+        "Gragas_q": "Q: Lanza un barril al suelo que hace más daño entre más tiempo lo deja ahí, puede explotarlo manualmente.",
+        "Gragas_w": "W: Aumenta sus resistencias y su próximo básico hace más daño y es en área.",
+        "Gragas_e": "E: Se lanza de panzazo y aturde al primer objetivo alcanzado (varios si están muy cerca).",
+        "Gragas_r": "R: Lanza su barril hacia una ubicación, hace daño y manda a volar a los objetivos cercanos en la dirección opuesta del barril."
+      }
+    },
+    "Graves": {
+      "id": "Graves",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Tiene una escopeta que debe recargar después de dos básicos y solo hace daño frente a él pero hace daño en área.",
+      "spellsDescription": {
+        "Graves_q": "Q: Lanza un cartugo que explota y luego se devuelve haciendo el mismo recorrido.",
+        "Graves_w": "W: Lanza una bomba de humo que deja ciegos y ralentiza a los enemigos.",
+        "Graves_e": "E: Hace un pequeño desplazamiento y recargamos cartucho.",
+        "Graves_r": "R: Lanza cañonazo que hace daño y hace a graver retroceder."
+      }
+    },
+    "Gwen": {
+      "id": "Gwen",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Entre más vida máxima tiene el enemigo más daño hacen los básicos y la curan parte de este.",
+      "spellsDescription": {
+        "Gwen_q": "Q: Hace daño frente a ella, en el centro de la habilidad hace daño verdadero. Puede juntar hasta cuatro cargas realizando básicos para hacer más corte con su Q.",
+        "Gwen_w": "W: Gana resistencias y no puede ser atacada desde fuera de la zona que crea.",
+        "Gwen_e": "E: Realiza un pequeño desplazamiento que le da velocidad de ataque y le aumenta el daño.",
+        "Gwen_r": "R: Dispara agujas en línea recta (Se puede castear tres veces, cada lanzamiento siguiente se potencia), esto atraviesa objetivos, ralentiza y hace daño, además aplica la pasiva."
+      }
+    },
+    "Hecarim": {
+      "id": "Hecarim",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Obtiene daño de ataque equivalente a una parte de su velocidad de movimiento.",
+      "spellsDescription": {
+        "Hecarim_q": "Q: Realiza un corte a los enemigos cercanos.",
+        "Hecarim_w": "W: Obtiene resistencias y hace daño. Se cura una parte del daño que hace.",
+        "Hecarim_e": "E: Obtiene velocidad de movimiento y tras correr un poco al atacar un objetivo lo empuja.",
+        "Hecarim_r": "R: Invoca jinetes y hace un desplazamiento en línea recta. Crea una ona de choque que aterroriza a sus enemigos."
+      }
+    },
+    "Heimerdinger": {
+      "id": "Heimerdinger",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Velocidad de movimiento al estar cerca de sus torretas o torres aliadas.",
+      "spellsDescription": {
+        "Heimerdinger_q": "Q: Coloca una torreta que hace daño. Máximo tres.",
+        "Heimerdinger_w": "W: Dispara misiles que atraviesan el cursor. Golpear un campeón enemigo hace que las torretas disparen un lacer que atraviesa objetivos.",
+        "Heimerdinger_e": "E: Lanza una granada aturde al objetivo en el centro y ralentizan los de alrededor. Golpear un campeón enemigo hace que las torretas disparen un lacer que atraviesa objetivos.",
+        "Heimerdinger_r": "R: Mejora una habilidad básica: Q: Crea una torreta más grande. W: dispara más misiles. E: La granada rebota tres veces y es más grande."
+      }
+    },
+    "Hwei": {
+      "id": "Hwei",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Golpear con una habilidad marca al campeón enemigo, golpear con una habilidad a un enemigo marcado hace que explote la marca.",
+      "spellsDescription": {
+        "Hwei_q": "QQ: Lanza bola de fuego. QW: Hace caer una bola de fuego del cielo. QE: Crea una grieta en el suelo que ralentiza.",
+        "Hwei_w": "WQ: Crea camino que da velocidad de movimiento. WW: Crea un área que pone un escudo a todos los aliados dentro. WE: Sus próximos tres ataques aumentan un poco el daño, sus básicos aplican marcas de la pasiva.",
+        "Hwei_e": "EQ: Lanza una sombra que asusta al primer objetivo alcanzado. EW: Crea un ojo que da visión e inmoviliza un enemigo que entre a su rango. EE: Invoca fauces que atraen enemigos al centro.",
+        "Hwei_r": "R: Si empieza a utilizar una habilidad puede retroceder con la R y usar otra. Si solo utiliza la R lanza una bola que se pega al primer enemigo alcanzado, lo ralentiza y explota haciendo mucho daño en área."
+      }
+    },
+    "Illaoi": {
+      "id": "Illaoi",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Cada poco tiempo regenera un tentáculo cerca de un muro, si golpean un campeón regenera vida.",
+      "spellsDescription": {
+        "Illaoi_q": "Q: Azota el suelo con un tentáculo.",
+        "Illaoi_w": "W: Salta hacia un objetivo y ordena a los tentáculos cercanos atacar en esa dirección.",
+        "Illaoi_e": "E: Lanza un tentáculo que arrebata el alma a un campeón. Hacerle daño al alma daña al campeón y este puede ser EJECUTAAADO SI EL ALMA TIENE MÁS VIDA QUE EL CAMPEÓN.",
+        "Illaoi_r": "R: Se vuelve invulnerable a los aturdimientos por un segundo, genera un tentáculo por cada campeón enemigo cercano y ningun tentáculo puede ser destruido además de atacar más rapido."
+      }
+    },
+    "Irelia": {
+      "id": "Irelia",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Obtiene velocidad de ataque al impactar sus habilidades.",
+      "spellsDescription": {
+        "Irelia_q": "Q: Se desplaza hacia el objetivo, hace daño y se cura. Si el objetivo muere o si están marcados por su E o R se reinicia su enfriamiento.",
+        "Irelia_w": "W: Reduce el daño recibido mientras se carga y hace daño en dirección al cursor al finalizar.",
+        "Irelia_e": "E: Deja dos marcas que se interconectan para aturdir a los objetivos que estén en el medio y les deja una marca.",
+        "Irelia_r": "R: Dispara unas cuchillas al frente, hace daño, deja una pared que ralentiza y marca los campeones enemigos que son alcanzados."
+      }
+    },
+    "Ivern": {
+      "id": "Ivern",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: No puede atacar ni ser atacado por mountros no epicos. Puede atrapar en raíces monstruos de la jungla y después de un rato llevarselos.",
+      "spellsDescription": {
+        "Ivern_q": "Q: Lanza una enredadera que atrapa a su objetivo. Él y sus aliados pueden desplazarse hacia al objetivo atrapado.",
+        "Ivern_w": "W: Crea un arbusto en el mapa. Los ataques dentro de un arbusto de su equipo causan más daño.",
+        "Ivern_e": "E: Pone un escudo sobre él o un aliado, si no se rompe explota y hace daño alrededor del objetivo y se regenera el escudo.",
+        "Ivern_r": "R: Invoca una amiga para que pelee a su lado. Después de varios ataques realiza un golpe que puede levantar su objetivo."
+      }
+    },
+    "Janna": {
+      "id": "Janna",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Los aliados corren más hacia janna. La velocidad de movimiento aumenta el daño de su W.",
+      "spellsDescription": {
+        "Janna_q": "Q: Crea un tornado apuntando a una dirección, este se carga y luego levanta todos los objetivos en esa dirección. Se puede soltar antes de tiempo pero con menor rango.",
+        "Janna_w": "W: Pasiva: Aumenta su velocidad de movimiento. Activa: Lanza un pájaro que ralentiza a su objetivo.",
+        "Janna_e": "E: Crea un escudo sobre un campeón o una torre aliada que protege del daño recibido y aumenta el daño realizado.",
+        "Janna_r": "R: Se rodea de una tormenta que aleja al instante a todos los enemigos y cura a todos los aliados."
+      }
+    },
+    "JarvanIV": {
+      "id": "JarvanIV",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: El primer ataque básico a un enemigo inflige daño adicional y entra en enfriamiento sobre ese objetivo.",
+      "spellsDescription": {
+        "JarvanIV_q": "Q: Extiende su lanza que causa daño y baja armadura de sus enemigos alcanzados. Si hay una bandera se lanza hacia ella levantando todo en su camino.",
+        "JarvanIV_w": "W: Se protege de daño y ralentiza enemigos que lo rodean.",
+        "JarvanIV_e": "E: Pasiva: Le da velocidad de ataque. Activa: Lanza una bandera que revela y hace daño.",
+        "JarvanIV_r": "R: Salta hacia un objetivo, le hace daño y lo rodea en muros."
+      }
+    },
+    "Jax": {
+      "id": "Jax",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Los ataques básicos consecutivos aumentan su velocidad de ataque. Puede pescar en el río.",
+      "spellsDescription": {
+        "Jax_q": "Q: Salta hacia un objetivo. Si es un enemigo, lo golpea con su arma.",
+        "Jax_w": "W: Su siguiente ataque básico causa más daño.",
+        "Jax_e": "E: Hace un helicóptero para evadir todos los ataques básicos.",
+        "Jax_r": "R: Pasiva: Cada tercer ataque es potenciado. Activa: Hace daño alrededor y aumenta todas sus resistencias."
+      }
+    },
+    "Jayce": {
+      "id": "Jayce",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Al cambiar de arma obtiene velocidad de movimiento.",
+      "spellsDescription": {
+        "Jayce_q": "Q: Cañon: Lanza un orbe que causa daño en área. Matillo: Salta sobre el objetivo ralentizando y haciendo daño en área.",
+        "Jayce_w": "W: Cañon: Sus próximos tres ataques básicos son más rapidos. Matillo: Crea un campo de energía que daña los campeones cercanos. De forma pasiva, los ataques básicos regeneran maná.",
+        "Jayce_e": "E: Cañon: Despliega un portal que aumenta la velocidad de ataque o el orbe de su Q aumenta su tamaño y velocidad. Matillo: Daña y empuja un objetivo hacia atrás.",
+        "Jayce_r": "R: Cambia entre cañon(rango) y martillo(cuerpo a cuerpo), cada vez que cambia obtiene un básico potenciado."
+      }
+    },
+    "Jhin": {
+      "id": "Jhin",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Tiene cuatro balas, la cuarta hace más daño.",
+      "spellsDescription": {
+        "Jhin_q": "Q: Rebota cuatro veces sobre objetivos distintos, si ejecuta algún objetivo el siguiente rebote hace más daño.",
+        "Jhin_w": "W: Dispara una bala de largo alcance, atrapa a un campeón enemigo si recibió daño de algún miembro del equipo de Jhin.",
+        "Jhin_e": "E: Coloca trampas en el suelo que ralentizan y revelan a quien la pise.",
+        "Jhin_r": "R: Dispara cuatro superbalas que ralentizan y hacen mucho daño al campeón alcanzado. La cuarta golpea más fuerte."
+      }
+    },
+    "Jinx": {
+      "id": "Jinx",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Al participar en un derribo de campeón, estructura o monstruio epico de la jungla obtiene una carga que le da velocidad de movimiento y de ataque (Máximo cinco).",
+      "spellsDescription": {
+        "Jinx_q": "Q: Cambia entre metralleta (dispara más rápido a un objetivo) y lanzacohetes (Dispara más lento, más alcance, en área pero consume maná).",
+        "Jinx_w": "W: Dispara un rayo en línea recta que ralentiza.",
+        "Jinx_e": "E: Deja en el suelo tres granadas que si son pisadas por un enemigo lo paralizan.",
+        "Jinx_r": "R: Lanza un supermegachohete que atraviesa todo el mapa y si colisiona en un campeón enemigo explota y hace daño en área."
+      }
+    },
+    "Kaisa": {
+      "id": "Kaisa",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Sus ataques básicos y los aturdimientos de sus aliados y aplican marcas si Kai'Sa aplica la quinta marca explota y hace daño al objetivo.",
+      "spellsDescription": {
+        "Kaisa_q": "Q: Lanza muchos misiles a todos los objetivos cercanos, si es solo un objetivo se reduce el daño de los misiles después del primero. Mejora: Dispara más misiles.",
+        "Kaisa_w": "W: Dispara un misil de largo alcance que deja marcas de su pasiva. Mejora: Al golpear un campeón baja su enfriamiento.",
+        "Kaisa_e": "E: Velocidad de movimiento por poco tiempo y luego aumenta la velocidad de ataque. Mejora: Se vuelve invisible mientra tiene la velocidad de movimiento.",
+        "Kaisa_r": "R: Al marcar un enemigo con su pasiva, se puede desplazar a cualquier lugar cercano de ese objetivo."
+      }
+    },
+    "Kalista": {
+      "id": "Kalista",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Se puede vincular a un aliado. Al realizar un ataque básico o lanzar la Q puede saltar hacia una dirección .",
+      "spellsDescription": {
+        "Kalista_q": "Q: Arroja una lanza que atraviesa los enemigos que ejecuta junto con las lanzas que tuviera.",
+        "Kalista_w": "W: Envia un espíritu a explorar. Pasiva: Si ataca al mismo objetivo que el aliado al que se vinculó hace más daño",
+        "Kalista_e": "E: Arranca todas las lanzas de sus objetivos ralentizandolos, si alguno muere se restablece el enfriamiento.",
+        "Kalista_r": "R: Trae al aliado vinculado y este puede lanzarse hacia una dirección levantando los enemigos alcanzados."
+      }
+    },
+    "Karma": {
+      "id": "Karma",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Cada golpe de habilidad reduce el enfriamiento de su R.",
+      "spellsDescription": {
+        "Karma_q": "Q: Dispara un mantra que hace daño en área. Potenciada: Más daño y deja una marca en el suelo que explota de nuevo.",
+        "Karma_w": "W: Se vincula a un enemigo para atraparlo tras poco tiempo. Potenciada: Se cura porcentaje de la vida faltante cuando se castea y cuando atrapa.",
+        "Karma_e": "E: Se coloca a ella o un aliado un escudo y da velocidad de movimiento. Potenciada: Coloca un escudo más fuerte y a los aliados cercanos también les da escudo y velocidad de movimiento.",
+        "Karma_r": "R: Potencia una habilidad."
+      }
+    },
+    "Karthus": {
+      "id": "Karthus",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Tras morir, se convierte en espíritu y sigue lanzando hechizos.",
+      "spellsDescription": {
+        "Karthus_q": "Q: Tira una bola de energia en una ubicación.",
+        "Karthus_w": "W: Pone un muro que ralentiza y baja resistencia mágica a los enemigos que la atraviesan.",
+        "Karthus_e": "E: Hace daño a los enemigos cercanos, si mata alguno regenera maná.",
+        "Karthus_r": "R: Canaliza por tres segundos y luego daña a todos los campeones enemigos."
+      }
+    },
+    "Kassadin": {
+      "id": "Kassadin",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Recibe daño mágico reducido e ignora la colisión con unidades..",
+      "spellsDescription": {
+        "Kassadin_q": "Q: Dispara un orbe a un objetivo que silencia. Recibe un escudo que absorbe daño mágico",
+        "Kassadin_w": "W: El siguiente básico inflige más daño.",
+        "Kassadin_e": "E: Se carga con las habilidades lanzadas cerca de él, cuando carga la utiliza para ralentizar y dañar a los enemigos frente a él.",
+        "Kassadin_r": "R: Se teletransporta a una ubicación y hace daño. Usarla de forma consecutiva consume más maná y hace más daño."
+      }
+    },
+    "Katarina": {
+      "id": "Katarina",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Si participa en un derribo sus habilidades reducen mucho su enfriamiento. Si recoge una daga hace daño alrededor de ella.",
+      "spellsDescription": {
+        "Katarina_q": "Q: Lanza una daga que rebota tres veces y luego cae al suelo.",
+        "Katarina_w": "W: Lanza una daga al aire que le da velocidad de movimiento, esta daga cae al suelo.",
+        "Katarina_e": "E: Puede saltar a un objetivo aliado o enemigo y daña al objetivo más cercano. Si junta una daga su enfriamiento baja mucho.",
+        "Katarina_r": "R: Empieza a girar y daña a los tres campeones enemigo más cercanos y les aplica Heridas Graves."
+      }
+    },
+    "Kayle": {
+      "id": "Kayle",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Al subir de nivel evoluciona, gana daño, rango, velocidad de ataque y movimiento.",
+      "spellsDescription": {
+        "Kayle_q": "Q: Dispara una lanza que reduce las resistencias de los enemigos golpeados y los ralentiza.",
+        "Kayle_w": "W: Se cura a sí misma y al aliado más cercano, y ambos obtienen velocidad de movimiento.",
+        "Kayle_e": "E: el próximo básico inflige más daño en proporción a la vida faltante.",
+        "Kayle_r": "R: Vuelve invulnerable a ella o un aliado por poco tiempo."
+      }
+    },
+    "Kayn": {
+      "id": "Kayn",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Se transforma en kayn rojo(peleador) si golpea campeones cuerpo a cuerpo o en kayn azul(asesino) si golpea campeones a distancia.",
+      "spellsDescription": {
+        "Kayn_q": "Q: Se desplaza y luego ataca.",
+        "Kayn_w": "W: Rojo: Levanta enemigos frente a él. Azul: Hace mucho daño y ralentiza.",
+        "Kayn_e": "E: Puede caminar por los muros y al entrar se cura.",
+        "Kayn_r": "R: Entra al cuerpo de un enemigo al que le hizo daño recientemente. Rojo: Se cura al salir. Azul: Hace más daño."
+      }
+    },
+    "Kennen": {
+      "id": "Kennen",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Aturde enemigos a los que les aplica tres marcas.",
+      "spellsDescription": {
+        "Kennen_q": "Q: Arroja un churiken que hace daño y deja una marca.",
+        "Kennen_w": "W: Descarga un rayo sobre todos los enemigos marcados y agrega otra marca.",
+        "Kennen_e": "E: Se convierte en una chispa de energía y obtiene velocidad de movimiento. Si toca algún enemigo les hace daño y les deja una marca.",
+        "Kennen_r": "R: Invoca una tormenta que golpea a los campeones enemigos cercanos y les aplica marcas de su pasiva."
+      }
+    },
+    "Khazix": {
+      "id": "Khazix",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Les aparece una marca a los campeones aislados.",
+      "spellsDescription": {
+        "Khazix_q": "Q: Hace daño a un objetivo. Aislado: Hace más daño. Evolución: Devuelve enfriamiento si se usa contra objetivos aislados.",
+        "Khazix_w": "W: Lanza púas que ralentizan, si está cerca del objetivo también se cura. Evolución: Lanza tres púas en forma de cono que ralentizan más y revelan.",
+        "Khazix_e": "E: Salta y hace daño al caer. Evolución: Aumenta rango del salto y se restablece su enfriamiento al derribar un campeón enemigo.",
+        "Khazix_r": "R: Tiene dos cargas para volverse invisible por poco tiempo. Cada vez que se mejora obtiene una evolución para cualquier habilidad. Evolución: agrega una carga de invisibilidad más."
+      }
+    },
+    "Kindred": {
+      "id": "Kindred",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Marca objetivos para darles caza. Cada marca potencia sus habilidades básicas y cada cuatro aumenta su rango de ataque básico.",
+      "spellsDescription": {
+        "Kindred_q": "Q: Salta y dispara tres flechas a objetivos cercanos.",
+        "Kindred_w": "W: Saca un lobo que ataca a los objetivos dentro de su área.",
+        "Kindred_e": "E: Crea una marca que ralentiza a un objetivo y después de atacarlo varias veces explota y hace más daño.",
+        "Kindred_r": "R: Crea un área en el que ninguna unidad puede morir, al final cura a los que están dentro."
+      }
+    },
+    "Kled": {
+      "id": "Kled",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Cuando monta su caballo se gasta primero la vida de este. Al estar sin su caballo puede llamarlo de nuevo al llenar una barra atacando enemigos.",
+      "spellsDescription": {
+        "Kled_q": "Q: Montado: Engancha a un objetivo que si no se aleja lo atrae y aplica Heridas Graves. Desmontado: Dispara una escopeta.",
+        "Kled_w": "W: Kled aumenta su velocidad de ataque es sus próximos cuatro básicos, el cuarto inflige más daño.",
+        "Kled_e": "E: Montado: Atraviesa un objetivo para hacerle daño, luego puede volver a usar la habilidad para atravesarlo. Desmontado: Decoración.",
+        "Kled_r": "R: Montado: Corre hacia una ubicación dejando un rastro que cualquier aliado puede seguir aumentando su velocidad de movimiento. Desmontado: Decoración."
+      }
+    },
+    "KogMaw": {
+      "id": "KogMaw",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Explota cuatro segundos después de morir, se puede mover en ese tiempo.",
+      "spellsDescription": {
+        "KogMaw_q": "Q: Lanza un proyectil que hace daño y corroe las resistencias del objetivo por poco tiempo y obtiene velocidad de ataque.",
+        "KogMaw_w": "W: Aumenta el alcance de sus ataques básicos y hacen daño de vida máxima del objetivo.",
+        "KogMaw_e": "E: Deja un rastro que hace daño y ralentiza a los enemigos.",
+        "KogMaw_r": "R: Dispara un proyectil al cielo y cuando cae hace más daño a campeones con vida baja. Disparar varios seguidos aumenta su coste de maná."
+      }
+    },
+    "KSante": {
+      "id": "KSante",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Atacar a un enemigo con habilidades los marca y con los básicos rompe esa marca haciendo daño extra.",
+      "spellsDescription": {
+        "KSante_q": "Q: Golpea el suelo con su arma esto ralentiza, después de golpear objetivos dos veces seguidas el tercero atrae a los enemigos. Transfomación: Enfriamiento reducido pero no ralentiza.",
+        "KSante_w": "W: Se vuelve imparable y recibe menos daño mientras la castea y luego empuja con su cuerpo los enemigos frente a él. Transformación: Reinicia el enfriamiento, recibe menos daño, hace más daño y se lanza más rapido.",
+        "KSante_e": "E: Hace un desplazamiento y obtiene un escudo. Puede saltar hacia un aliado y lo protege. Transfomación: Puede saltar muros y la velocidad de desplazamiento aumenta.",
+        "KSante_r": "R: Empuja un enemigo, si está cerca de la pared ambos la atraviesan completamente. K'Sante pierde vida y resistencias pero gana daño de ataque y transforma sus habilidades."
+      }
+    },
+    "Leblanc": {
+      "id": "Leblanc",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Cuando su vida baja del 40% se vuelve invisible e invoca un clon que no hace daño.",
+      "spellsDescription": {
+        "Leblanc_q": "Q: Marca un objetivo haciendole daño, si impacta otra habilidad en poco tiempo explota la marca.",
+        "Leblanc_w": "W: Se desplaza hacia una ubicación y hace daño en área, puede recastear esta habilidad para volver a su posición inicial.",
+        "Leblanc_e": "E: Arroja una cadena que la vincula con el primer enemigo alcanzado. Si el objetivo permanece encadenado por 1.5 seg queda inmovilizado y recibe daño adicional.",
+        "Leblanc_r": "R: Lanza una copia de su último hechizo básico utilizado."
+      }
+    },
+    "LeeSin": {
+      "id": "LeeSin",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Después de usar una habilidad, sus siguientes dos ataques básicos reciben velocidad de ataque y le restauran energía.",
+      "spellsDescription": {
+        "LeeSin_q": "Q: Dispara una onda sonora, si impacta un objetivo puede lanzarse hacia él.",
+        "LeeSin_w": "W: Se desplaza hacia un aliado, ward o minion con su primer uso, pone un escudo si se usa en él o un aliado. El segundo uso le da robo de vida.",
+        "LeeSin_e": "E: Tiene dos usos, el primero golpea el suelo y marca a todos los enemigos cercanos. El segundo ralentiza todos los enemigos marcados.",
+        "LeeSin_r": "R: Lanza una patada que aleja al enemigo fijado. Si el enemigo pateado toca otro enemigo los levantará."
+      }
+    },
+    "Leona": {
+      "id": "Leona",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Los hechizos marcan a sus enemigos y los aliados pueden explotar las marcas para hacer más daño.",
+      "spellsDescription": {
+        "Leona_q": "Q: El siguiente básico aturde al objetivo.",
+        "Leona_w": "W: Aumenta sus resistencias por poco tiempo y al finalizar hace daño alrededor de ella.",
+        "Leona_e": "E: Usa su espada para infligir daño en línea recta, si alcanza un campeón se desplaza hasta él.",
+        "Leona_r": "R: Invoca un rayo de energía que aturde a los campeones en su centro y ralentiza a los que están alrededor."
+      }
+    },
+    "Lillia": {
+      "id": "Lillia",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Las habilidades hacen daño de vida máxima y la curan una parte de esto.",
+      "spellsDescription": {
+        "Lillia_q": "Q: Gira su rama alrededor y hace daño verdadero a los enemigos en la parte exterior del circulo. Impactar habilidades le da cargas de velocidad de movimiento (Maximo cuatro).",
+        "Lillia_w": "W: Se prepara y golpea una ubicación con su rama. Hace más daño a los objetivos en el centro de su habilidad.",
+        "Lillia_e": "E: Lanza una semilla rodante en una dirección y no se detiene hasta pegar con algo. Si pega con un enemigo lo ralentiza y hace daño.",
+        "Lillia_r": "R: Hace que todos los enemigos que recibieron una habilidad de lillia se queden dormidos."
+      }
+    },
+    "Lissandra": {
+      "id": "Lissandra",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Los enemigos que mueren cerca de Lissandra se convierten en esclavos de hielo que caminan hacia los enemigos y explotan.",
+      "spellsDescription": {
+        "Lissandra_q": "Q: Dispara una lanza de hielo que se divide cuando impacta en un enemigo y reduce la velocidad de movimiento.",
+        "Lissandra_w": "W: Inmoviliza a los enemigos cercanos.",
+        "Lissandra_e": "E: Crea una garra de hielo que inflige daño, recastear la habilidad la teletransporta a la garra.",
+        "Lissandra_r": "R: Si se lanza contra un campeón enemigo lo deja aturdido, si lo lanza contra sí misma se vuelve inmune al daño y se cura."
+      }
+    },
+    "Lucian": {
+      "id": "Lucian",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Después de usar una habilidad sus siguiente básico se vuelve disparo doble.",
+      "spellsDescription": {
+        "Lucian_q": "Q: Lanza un rayo de luz a través de un objetivo.",
+        "Lucian_w": "W: Dispara un misil que explota en forma de estrella y marca enemigos, atacarlos le da velocidad de ataque.",
+        "Lucian_e": "E: Se desplaza una corta distancia, realizar disparos dobles reduce el enfriamiento de esta habilidad.",
+        "Lucian_r": "R: Realiza un torrente de disparos de sus armas."
+      }
+    },
+    "Lulu": {
+      "id": "Lulu",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Hace que su compañero haga ataques coordinados al mismo tiempo que Lulu o un aliado si le pone el compañero.",
+      "spellsDescription": {
+        "Lulu_q": "Q: Dispara un proyectil de energía que daña y ralentiza desde su ubicación y la de su compañero.",
+        "Lulu_w": "W: Si se usa sobre un aliado le da velocidad de ataque y movimiento, si se usa en un enemigo lo transforma en un animalito inofencivo.",
+        "Lulu_e": "E: Si se usa sobre un aliado le da escudo y el compañero ataca desde su ubicación. Si se la lanza a un enemigo le hace daño .",
+        "Lulu_r": "R: Hace crecer a un aliado. Los enemigos cercanos son levantados."
+      }
+    },
+    "Lux": {
+      "id": "Lux",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Las habilidades que infligen daño dejan una marca que lux detona con un básico.",
+      "spellsDescription": {
+        "Lux_q": "Q: Lanza una esfera de luz que inmoviliza y causa daño a un máximo de dos objetivos.",
+        "Lux_w": "W: Lanza luz que la protege y a sus aliados, luego se regresa y coloca un segundo escudo.",
+        "Lux_e": "E: Lanza una anomalía de luz en un área que ralentiza a los enemigos dentro y la puede detonar para hacer daño.",
+        "Lux_r": "R: Lanza un rayo de luz que hace daño a todos los objetivos que atraviesa."
+      }
+    },
+    "Malphite": {
+      "id": "Malphite",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Si no recibe daño durante unos segundos gana un escudo de su 10% de vida máxima.",
+      "spellsDescription": {
+        "Malphite_q": "Q: Lanza un fragmento de tierra a un objetivo, le roba velocidad de movimiento y le hace daño.",
+        "Malphite_w": "W: Sus golpes básicos hacen daño en área.",
+        "Malphite_e": "E: Golpea el suelo, hace daño a los enemigos a su alrededor y les reduce su velocidad de ataque.",
+        "Malphite_r": "R: Salta hacia una ubicación con gran velocidad, levanta a los enemigos y les hace daño."
+      }
+    },
+    "Malzahar": {
+      "id": "Malzahar",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Después de unos segundos sin recibir daño, gana un escudo que lo protege del siguiente ataque o habilidad.",
+      "spellsDescription": {
+        "Malzahar_q": "Q: Abre dos portales que disparan proyectiles hacia el centro y estos dañan y silencian a los enemigos alcanzados.",
+        "Malzahar_w": "W: Invoca Entes del Vacío para atacar a los enemigos cercanos. Dan prioridad a los objetivos marcados con su E.",
+        "Malzahar_e": "E: Infecta a un objetivo lo cual le causa daño por segundo. Si el objetivo muere la infección se transfiere al enemigo más cercano.",
+        "Malzahar_r": "R: Malzahar suprime a un campeón enemigo."
+      }
+    },
+    "Maokai": {
+      "id": "Maokai",
+      "roles": ["Top", "Supp", "Jg"],
+      "passiveDescription": "Pasiva: Su próximo básico lo cura en inflige daño adicional, cada vez que lanza o recibe un hechizo el enfriamiendo se reduce.",
+      "spellsDescription": {
+        "Maokai_q": "Q: Empuja a los enemigos cercanos y los ralentiza.",
+        "Maokai_w": "W: Se vuelve inalcanzable mientras se desplaza hacia un enemigo cercano, al llegar inmoviliza al objetivo.",
+        "Maokai_e": "E: Arroja un retoño para que de visión, ataque y ralentize a un enemigo si se acerca. Es más efectivo dentro de un arbusto.",
+        "Maokai_r": "R: Invoca un muro de espinas que avanzan en una dirección, inmoviliza a los campeones que atrapa."
+      }
+    },
+    "MasterYi": {
+      "id": "MasterYi",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Ataca dos veces cada cierto número de ataques básicos consecutivos.",
+      "spellsDescription": {
+        "MasterYi_q": "Q: Se teletransporta por el campo de batalla a toda velocidad y hace daño a todos los objetivos. Los golpes básicos reducen su enfriamiento.",
+        "MasterYi_w": "W: Canaliza para regenerar vida y reducir el daño que recibe.",
+        "MasterYi_e": "E: Otorga daño verdadero adicional a los ataques básicos.",
+        "MasterYi_r": "R: Aumenta su velocidad de movimiento y de ataque. Se vuelve inmune a las ralentizaciones. Los derribos de campeones extienden su duración."
+      }
+    },
+    "Mel": {
+      "id": "Mel",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Cada vez que usa una habilidad gana tres proyectiles extra para su próximo básico. Hacer daño crea una marca y permite ejecutar a los enemigos con poca vida.",
+      "spellsDescription": {
+        "Mel_q": "Q: Dispara una ráfaga de proyectiles que explotan en una ubicación.",
+        "Mel_w": "W: Obtiene velocidad de movimiento y forma una barrera que la protege de todo daño y devuelve los proyectiles enemigos al atacante.",
+        "Mel_e": "E: Dispara un orbe radiante que inmoviliza a los enemigos en el centro y ralentiza a su alrededor.",
+        "Mel_r": "R: Mel golpea a todos los enemigos marcados sin importar la distancia, entre más marcas tengan más daño hace y tienen una marca diferente si pueden ser ejecutados."
+      }
+    },
+    "Milio": {
+      "id": "Milio",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Las habilidades que tocan a sus aliados hace que el próximo ataque de su aliado genere una explosión que inflige daño adicional y quema al objetivo.",
+      "spellsDescription": {
+        "Milio_q": "Q: Patea una bola que empuja a un enemigo y donde cae el enemigo hace daño en área.",
+        "Milio_w": "W: Crea un área de potenciación que cura a los aliados y aumenta el alcance de quienes se encuentran en su interior.",
+        "Milio_e": "E: Lanza un escudo a un aliado y aumenta su velocidad de movimiento.",
+        "Milio_r": "R: Lanza una ola de llamas reconfortantes que cura y elimina efectos de control sobre sus aliados cercanos."
+      }
+    },
+    "MissFortune": {
+      "id": "MissFortune",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Inflige daño físico adicional cuando usa un ataque básico contra un objetivo nuevo.",
+      "spellsDescription": {
+        "MissFortune_q": "Q: Dispara una bala que inflige daño a un objetivo y a la unidad detrás de él.",
+        "MissFortune_w": "W: Activa: Otorga velocidad de ataque. Pasiva: Obtiene velocidad de movimiento cuando no es atacada.",
+        "MissFortune_e": "E: Revela un área con una lluvia de balas que daña y ralentiza a los enemigos.",
+        "MissFortune_r": "R: Canaliza una ráfaga de balas en forma de cono frente a ella que hacen daño a todos los enemigos."
+      }
+    },
+    "MonkeyKing": {
+      "id": "Wukong",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Obtiene armadura y regeneración de vida máxima que se acumulan al luchar contra campeones y monstruos.",
+      "spellsDescription": {
+        "MonkeyKing_q": "Q: El siguiente básico obtiene más rango, daño y reduce la armadura del objetivo.",
+        "MonkeyKing_w": "W: Se vuelve invisible, se desplaza un poco en una dirección y deja un clon atrás que ataca a los enemigos cercanos.",
+        "MonkeyKing_e": "E: Se lanza contra un enemigo cercano y envia imágenes que atacan otros enemigos cercanos a su objetivo.",
+        "MonkeyKing_r": "R: Empieza a dar vueltas que levanta a los enemigos que alcanza y obtiene velocidad de movimiento. Se puede activar dos veces."
+      }
+    },
+    "Mordekaiser": {
+      "id": "Mordekaiser",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Obtiene un aura a su alrededor que causa daño después de golpear tres veces a un campeón o monstruo.",
+      "spellsDescription": {
+        "Mordekaiser_q": "Q: Golpea el piso con su maza e inflige daño a todos los enemigos que alcanza. El daño aumenta si golpea solo un objetivo.",
+        "Mordekaiser_w": "W: Almacena el daño que inflige y recibe para crear un escudo. Puede consumir el escudo para curarse.",
+        "Mordekaiser_e": "E: Atrae a todos los enemigos en un área.",
+        "Mordekaiser_r": "R: Secuestra a su víctima a una dimensión distinta con él y roba una parte de sus estadísticas. Si la mata, conservará las estadísticas hasta que la víctima reaparezca."
+      }
+    },
+    "Morgana": {
+      "id": "Morgana",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Se cura mientras inflige daño a campeones, súbditos grandes y monstruos de la jungla grandes y medianos.",
+      "spellsDescription": {
+        "Morgana_q": "Q: Lanza un proyectil mágico que inmoviliza al primer enemigo alcanzado.",
+        "Morgana_w": "W: Deja una sombra en un área que inflige daño a los enemigos que la pisan y hace más daño entre menos vida tengan. Reduce su enfriamiento si lo pisan campeones o monstruos grandes.",
+        "Morgana_e": "E: Se coloca o a un aliado un escudo que protege de daño mágico y anula efectos de control.",
+        "Morgana_r": "R: Lanza cadenas a los campeones enemigos cercanos, obtiene velocidad de movimiento hacia ellos y aturde a los enemigos que no se alejan."
+      }
+    },
+    "Naafiri": {
+      "id": "Naafiri",
+      "roles": ["Mid", "Jg"],
+      "passiveDescription": "Pasiva: Hace aparecer a sus Compañeros que atacan a los objetivos de sus ataques y habilidades.",
+      "spellsDescription": {
+        "Naafiri_q": "Q: Arroja una daga, se castea dos veces. La primera daga que golpea aplica sangrado y la segunda hace daño adicional.",
+        "Naafiri_w": "W: Se vuelve invulnerable, potencia a su manada y hace aparecer Compañeros adicionales. Obtiene daño y velocidad de movimiento.",
+        "Naafiri_e": "E: Se desplaza e inflige daño a los enemigos en un área a su alrededor, se retira y cura a sus Compañeros.",
+        "Naafiri_r": "R: Se desplaza junto a sus compañeros hacia un campeón enemigo y les hace daño. Si consigue una eliminación poco después de lanzarla, revela a los enemigos cercano y puede reactivar esta habilidad. El segundo lanzamiendo otorga adicionalmente un escudo."
+      }
+    },
+    "Nami": {
+      "id": "Nami",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Impactar habilidades sobre aliados les da velocidad de movimiento.",
+      "spellsDescription": {
+        "Nami_q": "Q: Envía una burbuja a una zona objetivo que aturde a todos los enemigos impactados.",
+        "Nami_w": "W: Desata una corriente de agua que rebota entre aliados y enemigos, cura aliados y daña enemigos.",
+        "Nami_e": "E: Potencia los siguientes tres básicos o habilidades de un aliado que hace daño.",
+        "Nami_r": "R: Invoca un Maremoto que lanza por el aire a los enemigos, los ralentiza e inflige daño."
+      }
+    },
+    "Nasus": {
+      "id": "Nasus",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Obtiene robo de vida adicional.",
+      "spellsDescription": {
+        "Nasus_q": "Q: Golpea más fuerte, si ejecuta al enemigo gana cargas que aumentan el daño de esta habilidad.",
+        "Nasus_w": "W: ralentiza y disminuye la velocidad de ataque de un campeón enemigo.",
+        "Nasus_e": "E: Marca una ubicación con una llama espiritual que inflige daño y reduce la armadura de los enemigos sobre ella.",
+        "Nasus_r": "R: Obtiene vida y alcance de ataque aumentados e inflige daño a los enemigos cercanos. Su Q tiene menos enfriamiento."
+      }
+    },
+    "Nautilus": {
+      "id": "Nautilus",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: El primer ataque básico contra un objetivo lo inmoviliza.",
+      "spellsDescription": {
+        "Nautilus_q": "Q: Arroja su ancla. Si golpea un enemigo, lo atrae. Si golpea el terreno, lleva a Nautilus hacia esa ubicación.",
+        "Nautilus_w": "W: Le da un escudo, y sus básicos hacen más daño y son en área.",
+        "Nautilus_e": "E: Crea tres ondas explosivas a su alrededor que hacen daño y ralentizan.",
+        "Nautilus_r": "R: Fija un objetivo y envia una onda que lo levanta y a todos los enemigos por el camino."
+      }
+    },
+    "Neeko": {
+      "id": "Neeko",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Se transforma en cualquier cosa, lanzar una habilidad deshace la trasformación.",
+      "spellsDescription": {
+        "Neeko_q": "Q: Arroja una semilla que hace daño en el área que florece. Vuelve a florecer si golpea un campeón o mata una unidad.",
+        "Neeko_w": "W: Activa: Envia un clon en una dirección. Pasiva: Cada tercer ataque básico hace daño adicional.",
+        "Neeko_e": "E: Lanza una espiral que inmoviliza todo lo que atraviesa, si atraviesa un campeón o mata un enemigo, se potencia en el resto del trayecto.",
+        "Neeko_r": "R: Después de cargar un momento, salta por los aires junto a todos los enemigos cercanos, al caer los enemigos quedan aturdidos."
+      }
+    },
+    "Nidalee": {
+      "id": "Nidalee",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Más velocidad de movimiento en arbustos. Dañar con habilidades en forma humana deja una marca, esta revela y potencia su Q y W en forma felina.",
+      "spellsDescription": {
+        "Nidalee_q": "Q: Humana: Arroja una lanza que hace más daño si el objetivo está lejos, deja una marca. felina: Muerde a un enemigo.",
+        "Nidalee_w": "W: Humana: Deja trampas, si la pisa un enemigo deja una marca. felina: Salta libremente y hace daño, saltar hacia un objetivo con marca aumenta el rango y reduce el enfriamiento.",
+        "Nidalee_e": "E: Humana: Se cura a sí misma o un aliado. felina: Rasguña hacia el una dirección, hace daño a todos los objetivos en frente.",
+        "Nidalee_r": "R: Cambia de forma entre felina y humana."
+      }
+    },
+    "Nilah": {
+      "id": "Nilah",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Amplifica escudos y curaciones de aliados cercanos. Si mata un súbdito junto a un aliado, ambos reciben la experiencia completa.",
+      "spellsDescription": {
+        "Nilah_q": "Q: Lanza un látigo al frente, aumenta el rango y velocidad de ataque de sus próximos básicos.",
+        "Nilah_w": "W: Se pone un escudo que sirve para evitar los básicos enemigos, si un aliado toca el escudo también se le pone.",
+        "Nilah_e": "E: Salta hacia una unidad objetivo haciendo daño a todo lo que atraviesa. Tiene hasta dos cargas.",
+        "Nilah_r": "R: Gira su látigo alrededor y luego atrae a los enemigos cercanos, se cura y aumenta la probabilidad de crítico."
+      }
+    },
+    "Nocturne": {
+      "id": "Nocturne",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Cada poco tiempo hace un ataque básico que daña a todos los enemigos cercanos.",
+      "spellsDescription": {
+        "Nocturne_q": "Q: Lanza una sombra que si golpea un campeón enemigo este empieza a dejar sombra por donde camina. Estar sobre la sombra da velocidad de movimiento y daño de ataque.",
+        "Nocturne_w": "W: Activa: Se coloca un escudo con el que evita una habilidad enemiga. Pasiva: Da velocidad de ataque.",
+        "Nocturne_e": "E: Empieza a sembrar una pesadilla, si el enemigo no se aleja, queda aterrorizado.",
+        "Nocturne_r": "R: Reduce la visión de todos los campeones enemigos y suprime la visión sobre sus aliados. Nocturne puede lanzarse hacia un campeón enemigo medianamente lejano."
+      }
+    },
+    "Nunu": {
+      "id": "Nunu",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Aumenta su velocidad de ataque y la de un aliado cercano al dar un básico a un monstruo o campeón.",
+      "spellsDescription": {
+        "Nunu_q": "Q: Muerte a un enemigo y se cura. Si el objetivo muere se cura más.",
+        "Nunu_w": "W: Empuja una bola de nieve y esta va incrementando su tamaño, levanta a los enemigos con los que colisiona.",
+        "Nunu_e": "E: Lanza varias bolas de nieve que dañan a los enemigos, al finalizar la habilidad se inmovilizan los enemigos cercanos impactados por bolas de nieve.",
+        "Nunu_r": "R: Canaliza un torbellino alrededor que ralentiza a los enemigos dentro y al finalizarlo hace mucho daño."
+      }
+    },
+    "Olaf": {
+      "id": "Olaf",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Obtiene velocidad de ataque y robo de vida según la vida que le falte.",
+      "spellsDescription": {
+        "Olaf_q": "Q: Lanza un hacha que ralentiza y reduce la armadura a los enemigos en su recorrido. Si recoge el hacha se restablece su enfriamiento.",
+        "Olaf_w": "W: Aumenta la velocidad de ataque y obtiene un escudo.",
+        "Olaf_e": "E: Ataca con tal fuerza que causa daño verdadero a su objetivo y a sí mismo. Se recupera el daño si destruye el objetivo.",
+        "Olaf_r": "R: Activa: Se vuelve inmune a las inmovilizaciones. Pasiva: Gana resistencia mágica y armadura."
+      }
+    },
+    "Orianna": {
+      "id": "Orianna",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Los básicos hacen daño mágico adicional. Atacar al mismo objetivo aumenta el daño.",
+      "spellsDescription": {
+        "Orianna_q": "Q: Envía una bola hacia una ubicación, hace daño en todo su recorrido y al final se queda ahí.",
+        "Orianna_w": "W: Crea un campo de energía alrededor de la bola que aumenta la velocidad de movimiento de los aliados, ralentiza y daña a los oponentes.",
+        "Orianna_e": "E: Desplaza la bola hacia un campeón aliado y le coloca un escudo. La bola hace daño en su recorrido.",
+        "Orianna_r": "R: Hace una onda de choque alrededor de la bola que atrae a los enemigos cercanos al centro."
+      }
+    },
+    "Ornn": {
+      "id": "Ornn",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Puede forjar items en cualquier parte del mapa. Puede mejorar un item a un aliado a partir del nivel 12+1.",
+      "spellsDescription": {
+        "Ornn_q": "Q: Golpea el suelo y crea una fisura que hace daño y ralentiza, al final de la fisura se crea una columna.",
+        "Ornn_w": "W: Avanza lanzando fuego por la boca. Los enemigos que reciban el impacto de la última llama se les aplica Fragilidad (más daño del próximo básico de Ornn y se levantan un poco).",
+        "Ornn_e": "E: Embiste en una dirección y hace daño, si colisiona con un terreno levanta a los enemigos cercanos.",
+        "Ornn_r": "R: Invoca un elemental, que ralentiza y aplica Fragilidad a los enemigos golpeados. Puede reactivar la habilidad para embestir la elemental en la nueva dirección y levantar a los enemigos en su camino"
+      }
+    },
+    "Pantheon": {
+      "id": "Pantheon",
+      "roles": ["Top", "Supp"],
+      "passiveDescription": "Pasiva: Carga la pasiva usando básicos o habilidades, al estar al máximo su siguiente habilidad es potenciada.",
+      "spellsDescription": {
+        "Pantheon_q": "Q: Precionar: golpea al frente con la lanza. Mantener: arroja la lanza. Potenciada: Hace más daño.",
+        "Pantheon_w": "W: Salta hacia un objetivo y le hace daño y lo aturde. Potenciada: Realiza tres básicos seguidos.",
+        "Pantheon_e": "E: Saca su escudo y se vuelve invulnerable al daño en esa dirección y hace daño. Potenciada: Cuando acaba la habilidad obtiene velocidad de movimiento.",
+        "Pantheon_r": "R: Envía su lanza a una ubicación lejana y luego salta hasta ella, haciendo daño y ralenzando a los enemigos en el área."
+      }
+    },
+    "Poppy": {
+      "id": "Poppy",
+      "roles": ["Top", "Supp"],
+      "passiveDescription": "Pasiva: Lanza un escudo a un objetivo que hace daño y rebota y cae al suelo. Puede juntarlo y obtiene un escudo. Si el objetivo muere el escudo cae sobre a Poppy.",
+      "spellsDescription": {
+        "Poppy_q": "Q: Golpea el suelo con su martillo dejando una marca, hace daño y ralentiza a los enemigos en el área, después de un poco la marca explota.",
+        "Poppy_w": "W: Obtiene velocidad de movimiento y crea un área alrededor en el que los enemigos no pueden utilizar desplazamientos o quedarán anclados.",
+        "Poppy_e": "E: Carga hacia su objetivo y lo empuja. Si choca contra un muro, el enemigo queda aturdido.",
+        "Poppy_r": "R: Precionar: Levanta a los enemigos frente a ella. Mantener: Carga un golpe en línea recta que manda a volar a los enemigos alcanzados hacia la base enemiga."
+      }
+    },
+    "Pyke": {
+      "id": "Pyke",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Cuando se oculta de los enemigos regenera parte del daño sufrido recientemente (La vida gris).",
+      "spellsDescription": {
+        "Pyke_q": "Q: Presionar: Apuñala un enemigo frente a él. Mantener: carga un gancho que arastra un enemigo hacia él.",
+        "Pyke_w": "W: Se vuelve invisible y gana velocidad de movimiento.",
+        "Pyke_e": "E: Se desplaza y deja su alma tras él. Cuando el alma vuelve al cuerpo, aturde a todos los enemigos en su camino.",
+        "Pyke_r": "R: Aparece junto a un campeón enemigo que dañe. Cuando esta habilidad puede ejecutar sale en la vida del enemigo, si lo ejecuta se restablece su enfriamiento y le da oro adicional a un aliado que lo asista."
+      }
+    },
+    "Qiyana": {
+      "id": "Qiyana",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: El primer ataque básico o habilidad de Qiyana contra un enemigo inflige daño adicional.",
+      "spellsDescription": {
+        "Qiyana_q": "Q: Sin elemento daño. Tierra: Golpear un enemigo con menos del 50% de vida hace daño adicional. Agua: Aturde enemigos alcanzados. Arbusto: Genera una zona que la vuelve invisible.",
+        "Qiyana_w": "W: Se desliza hacia un objetivo e imbuye su arma del elemento en el cursor (Agua, Tierra o Arbusto).",
+        "Qiyana_e": "E: Se desplaza hacia un enemigo y le hace daño.",
+        "Qiyana_r": "R: Crea una onda que hace explotar los elemento que impacta esto aturde y daña a los enemigos. Lanzarlo a un muro hace que explote el borde de todo el muro."
+      }
+    },
+    "Quinn": {
+      "id": "Quinn",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Marca un objetivo, atacarlo con un básico hace daño adicional.",
+      "spellsDescription": {
+        "Quinn_q": "Q: Lanza un pájaro que reduce mucho la visión de los enemigos alcanzados y le deja una marca al objetivo principal.",
+        "Quinn_w": "W: Activa: Revela una amplia zona cercana. Pasiva: Mejora la velocidad de ataque y movimiento.",
+        "Quinn_e": "E: Salta hacia un enemigo, lo patea y se impulsa hacia atrás. Le deja una marca.",
+        "Quinn_r": "R: Invoca un pájaro para volar a gran velocidad. Al terminar la habilidad, daña a los enemigos cercanos y a los campeones enemigos les deja una marca."
+      }
+    },
+    "Rakan": {
+      "id": "Rakan",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Cada poco tiempo obtiene un escudo.",
+      "spellsDescription": {
+        "Rakan_q": "Q: Arroja una pluma que hace daño y si golpea un campeón enemigo se cura al pasar un tiempo, tocar un aliado cura a ambos al instante.",
+        "Rakan_w": "W: Se desplaza hacia una ubicación y lanza por el aire a enemigos cercanos al llegar.",
+        "Rakan_e": "E: Vuela hasta un campeón aliado y le otorga un escudo. Se puede volver a lanzar sin costo por un breve periodo.",
+        "Rakan_r": "R: Obtiene velocidad de movimiento, además inflige daño y deja encantados a los enemigos alcanzados."
+      }
+    },
+    "Rammus": {
+      "id": "Rammus",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Los ataques básicos hacen más daño dependiendo de la armadura de Rammus.",
+      "spellsDescription": {
+        "Rammus_q": "Q: Empieza a girar, aumenta la velocidad de movimiento. Si choca con un enemigo lo levanta, hace daño y ralentiza.",
+        "Rammus_w": "W: Se pone en formación defensiva, esto aumenta sus resistencias. En esta forma refleja el daño a los enemigos que lo ataquen con básicos.",
+        "Rammus_e": "E: Provoca a un enemigo cercano para atraerlo y que lo ataque.",
+        "Rammus_r": "R: Salta en el aire y golpea un área objetivo dejando una marca que daña y ralentiza a los enemigos. Si la lanza mientras gira, levanta a los enemigos en el centro."
+      }
+    },
+    "RekSai": {
+      "id": "RekSai",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Genera furia al atacar y al impactar con sus habilidades básicas. Consume esa furia mientras está enterrada para recuperar vida.",
+      "spellsDescription": {
+        "RekSai_q": "Q: Los siguientes tres ataques básicos daño físico adicional a los enemigos cercanos. Bajo tierra: Lanza una ráfaga de tierra que revela a los enemigos impactados.",
+        "RekSai_w": "W: Se mete bajo tierra. Bajo tierra: Tiene velocidad de movimiento y reduce su visión pero escucha todo lo que sucede a su alrededor. Activar la habilidad lo hace emerger y levantar a los enemigos cercanos.",
+        "RekSai_e": "E: Muerde al enemigo, hace daño adicional si tiene la furia al máximo. Bajo tierra: Crea un túnel reutilizable de larga duración con el cual se puede desplazar.",
+        "RekSai_r": "R: Cuando hace daño marca a los campeones enemigos. Puede usar esta habilidad para saltar a un enemigo marcado."
+      }
+    },
+    "Rell": {
+      "id": "Rell",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Roba parte de las resistencias de los campeones enemigos a los que ataca con básicos o habilidades.",
+      "spellsDescription": {
+        "Rell_q": "Q: Hace una estocada con su lanza que destruye los escudos y daña a todos los enemigos golpeados.",
+        "Rell_w": "W: Montada: Salta hacia una ubicación, se desmonta de su montura y levanta a todos los enemigos en el área. Desmontada: Se sube a su montura, gana velocidad de movimiento y su próximo básico lo lanza un poco hacia atrás.",
+        "Rell_e": "E: Ella y un aliado obtienen velocidad de movimiento. Su siguiente ataque explota y hace daño extra.",
+        "Rell_r": "R: Arrastra a los enemigos cercanos hacia ella."
+      }
+    },
+    "Renata": {
+      "id": "Renata",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Los ataques marcan a los enemigos. Si un aliado ataca a un enemigo marcado le hace daño adicional.",
+      "spellsDescription": {
+        "Renata_q": "Q: Lanza un misil que inmoviliza al primer enemigo alcanzado y puede volver a lanzar la habilidad para arrojar a la unidad hacia alguna dirección.",
+        "Renata_w": "W: Otorga velocidad de ataque y mientras dure la habilidad si el aliado muere tiene una segunda vida que disminuye rapidamente, si participa en un derribo de campeón evita la muerte.",
+        "Renata_e": "E: Lanza un par de misiles que otorga escudo a los aliados y hacen daño y ralentiza a los enemigos.",
+        "Renata_r": "R: Lanza una ola de químicos que causa que los enemigos alcanzados ataquen a sus aliados."
+      }
+    },
+    "Renekton": {
+      "id": "Renekton",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Los ataques generan furia. Gasta la mitad de furia máxima para potenciar una habilidad básica.",
+      "spellsDescription": {
+        "Renekton_q": "Q: Hace un corte a su alrededor que lo cura una parte del daño realizado. Potenciada: Aumenta el daño y la curación.",
+        "Renekton_w": "W: Aturde y corta dos veces a su objetivo. Potenciado: Si el objetivo tiene escudo lo destruye, corta al objetivo tres veces.",
+        "Renekton_e": "E: Se arroja hacia una dirección y si golpera un enemigo puede volver a lanzarse. Potenciada: Reduce la armadura de los enemigos que atraviesa (Solo el segundo uso).",
+        "Renekton_r": "R: Crece, gana vida adicional. Mientras dura esta habilidad hace daño a los enemigos que lo rodean y genera furia periódicamente."
+      }
+    },
+    "Rengar": {
+      "id": "Rengar",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Al estar en un arbusto, salta a un objetivo con su ataque básico. Saltar o usar una habilidad le da una carga. Tener cuatro cargas potencia su siguiente habilidad. Matar cada campeón enemigo por primera vez le da daño adicional.",
+      "spellsDescription": {
+        "Rengar_q": "Q: El siguiente básico apuñala al objetivo y hace más daño. Potenciada: Inflige más daño y otorga velocidad de ataque.",
+        "Rengar_w": "W: Pega un grito que hace daño a los enemigos cercanos y se cura un poco de daño recibido recientemente. Potenciado: Además de lo anterior elimina los efectos de control sobre él.",
+        "Rengar_e": "E: Arroja su boleadora que ralentiza al primer objetivo alcanzado. Potenciado: Enraíza al objetivo.",
+        "Rengar_r": "R: Se vuelve invisible y revela a un campeón cercano. Obtiene velocidad de movimiento y puede saltar como si estuviera en un arbusto."
+      }
+    },
+    "Riven": {
+      "id": "Riven",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Cada vez que usa una habilidad obtiene una carga (Máximo tres). Hacer un ataque básico gasta una carga y hace daño adicional.",
+      "spellsDescription": {
+        "Riven_q": "Q: Lanza un golpe hacia en frente. Se puede utilizar tres veces y el tercero levanta enemigos en el área o se puede usar para saltar muros pequeños.",
+        "Riven_w": "W: Aturde a todos los enemigos cercanos.",
+        "Riven_e": "E: Avanza una corta distancia y gana un escudo.",
+        "Riven_r": "R: Potencia su arma, ganando daño y rango de ataque. Puede volver a usar su habilidad para lanzar una cuchilla de viento que hace daño a distancia."
+      }
+    },
+    "Rumble": {
+      "id": "Rumble",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Genera calor cada vez que lanza un hechizo. A partir del 50% de calor potencia sus habilidades. Al llegar al 100% se sobrecalienta y obtiene velocidad de ataque y daño pero le impide lanzar hechizos hasta que se enfría.",
+      "spellsDescription": {
+        "Rumble_q": "Q: Incinera a los enemigos frente a él. Potenciado: Aumenta el daño.",
+        "Rumble_w": "W: Se pone un escudo y gana velocidad de movimiento. Potenciado: Aumenta más el escudo y la velocidad de movimiento.",
+        "Rumble_e": "E: Lanza un arpón que hace daño, ralentiza y reduce resistencia mágica del enemigo que golpea. Tiene hasta dos arpones. Potenciada: Hace más daño y ralentiza más.",
+        "Rumble_r": "R: Lanza un grupo de misiles estos crean un muro de llamas que inflige daño y ralentiza a los enemigos."
+      }
+    },
+    "Ryze": {
+      "id": "Ryze",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Las habilidades de Ryze hacen más daño dependiendo del maná adicional. Una parte del poder mágico se convierte en maná y viceversa.",
+      "spellsDescription": {
+        "Ryze_q": "Q: Lanza una carga de energía en línea recta. Si golpea un enemigo marcado, el daño de esta carga de energía se esparce a los enemigos cercanos marcados. Usar otra habilidad reinicia el enfriamiento de esta.",
+        "Ryze_w": "W: Atrapa un objetivo en una jaula que lo ralentiza y hace daño. Utilizar esta habilidad sobre un enemigo marcado lo inmovilizará.",
+        "Ryze_e": "E: Inflige daño a un objetivo y lo marca a él y a todos los enemigos cercanos.",
+        "Ryze_r": "R: Crea un portal hacia una ubicación a mediana distancia. Después de unos segundos, los aliados que se encuentren cerca del portal se teletransportarán a la ubicación objetivo."
+      }
+    },
+    "Samira": {
+      "id": "Samira",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Crea un combo al asestar habilidades o ataques diferentes al impacto anterior hasta conseguir una S. Atacar un enemigo inmovilizado lo lanzará por el aire.",
+      "spellsDescription": {
+        "Samira_q": "Q: Rango: Realiza un disparo en línea recta. Cuerpo a cuerpo: Blande su espada para golpear todo frente a ella.",
+        "Samira_w": "W: Realiza un corte a su alrededor que inflige daño y destruye los proyectiles enemigos.",
+        "Samira_e": "E: Se desplaza a través de un enemigo hace daño a todos los enemigo que atraviesa y obtiene velocidad de ataque. Matar un campeón restablece el enfriamiento de esta habilidad.",
+        "Samira_r": "R: Cuando consigue una S con su pasiva, presionar esta habilidad desata un torrente de disparos de sus armas para atacar a todos los enemigos a su alrededor."
+      }
+    },
+    "Sejuani": {
+      "id": "Sejuani",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Al estar fuera de combate obtiene inmunidad a ralentizaciones. Dañar a un campeón aturdido hace más daño.",
+      "spellsDescription": {
+        "Sejuani_q": "Q: Se lanza en una dirección y lanza a los enemigos que alcance por los aires. Se detiene después de alcanzar un campeón enemigo.",
+        "Sejuani_w": "W: Blande su mazo dos veces, lo que inflige daño, ralentiza a los enemigos y aplica acumulaciones de Escarcha.",
+        "Sejuani_e": "E: Congela y aturde al enemigo campeón que tenga cuatro acumulaciones de Escarcha. Los básicos de Sejuani y los básicos de los aliados cuerpo a cuerpo dejan una acumulación de escarcha.",
+        "Sejuani_r": "R: Arroja una bola que congela y aturde al primer campeón que alcanza, y crea una tormenta de hielo que ralentiza a los demás enemigos."
+      }
+    },
+    "Senna": {
+      "id": "Senna",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Cuando mueren unidades cerca pueden soltar sus almas. Al Senna atacar estas almas obtiene daño de ataque, alcance y probabilidad de crítico. También obtiene almas al dañar a un campeón enemigo dos veces en poco tiempo.",
+      "spellsDescription": {
+        "Senna_q": "Q: Lanza un rayo que atraviesa un objetivo marcado, cura a los aliados y daña a los enemigos.",
+        "Senna_w": "W: Lanza una ola de niebla. Si golpea a un enemigo, se queda enganchada a él y, poco después, lo inmoviliza junto a todas las unidades cercanas.",
+        "Senna_e": "E: Crea una zona que se mueve junto a ella. Esto la vuelve invisible y camufla a los aliados que entren en ella mientras dure la habilidad.",
+        "Senna_r": "R: Dispara un rayo global que otorga un escudo a sus aliados e inflige daño a los enemigos que estén en el centro del impacto."
+      }
+    },
+    "Seraphine": {
+      "id": "Seraphine",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Cada que tiene tres cargas su siguiente habilidad básica se lanza dos veces. Al usar una habilidad gana una carga y aumenta su alcance y daño de ataque básico (Máximo tres).",
+      "spellsDescription": {
+        "Seraphine_q": "Q: Lanza una nota de daño en un área.",
+        "Seraphine_w": "W: Se pone un escudo y a todos los aliados cercanos. Si tiene un escudo también cura a los aliados cercanos después de poco tiempo.",
+        "Seraphine_e": "E: Desata una onda de sonido que ralentiza a los enemigos en línea recta. Si el enemigo está ralentizado, lo aturde.",
+        "Seraphine_r": "R: Lanza un hechizo en línea recta que hace daño y atrae a todos los enemigos golpeados. Si esta habilidad golpea un campeón aliado o enemigo extiende su rango."
+      }
+    },
+    "Sett": {
+      "id": "Sett",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Los básicos se alternan entre derecho e izquierdo. Obtiene más regeneración de vida entre más le falte.",
+      "spellsDescription": {
+        "Sett_q": "Q: Los siguientes dos ataques básicos infligen daño adicional según la vida máxima del objetivo y obtiene velocidad de movimiento hacia un campeón enemigo.",
+        "Sett_w": "W: Almacena temporalmente el daño que recibe. Utilizar esta habilidad consume este daño recibido y se pone un escudo y realiza un golpe en un área, hace daño verdadero en el centro de esa área.",
+        "Sett_e": "E: Atrae a todos los enemigos que se encuentren a ambos lados de él y los aturde. Si atrae de un único lado solamente los ralentiza.",
+        "Sett_r": "R: Carga a un enemigo por el aire y lo azota contra el suelo, lo que inflige daño y ralentiza a todos los enemigos cerca del lugar de aterrizaje. Entre más vida tenga el objetivo que se lleva Sett, más daño hace en la zona que aterriza."
+      }
+    },
+    "Shaco": {
+      "id": "Shaco",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Los ataques básicos y su E hacen daño adicional cuando atacan por la espalda del objetivo.",
+      "spellsDescription": {
+        "Shaco_q": "Q: Se vuelve Invisible y se teletransporta hacia la ubicación objetivo y su siguiente básico estará potenciado.",
+        "Shaco_w": "W: Crea una caja sorpresa que se vuelve invisible. Al activarse, atemorizará y atacará a los enemigos cercanos.",
+        "Shaco_e": "E: Lanza un cuchillo a un objetivo y lo ralentiza. Si el enemigo tiene poca vida hace daño adicional.",
+        "Shaco_r": "R: Crea una ilusión suya cerca de él, la cual puede atacar a los enemigos cercanos. Al morir, esta estalla y hace aparecer tres cajas sorpresa."
+      }
+    },
+    "Shen": {
+      "id": "Shen",
+      "roles": ["Top", "Supp"],
+      "passiveDescription": "Pasiva: Obtiene un escudo tras lanzar un hechizo.",
+      "spellsDescription": {
+        "Shen_q": "Q: Recupera su espada espiritual para atacar con ella e infligir un daño basado en la vida máxima del objetivo. Si la espada impacta en un campeón enemigo los básicos serán potenciados y si el enemigo quiere huir será ralentizado.",
+        "Shen_w": "W: Se bloquean los ataques que pudiesen recibir Shen o sus aliados cerca de la espada.",
+        "Shen_e": "E: Se abalanza en una dirección y provoca a los enemigos que se encuentre a su paso.",
+        "Shen_r": "R: Coloca un escudo sobre un campeón aliado y poco después se teleporta hasta su ubicación."
+      }
+    },
+    "Shyvana": {
+      "id": "Shyvana",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Hace más daño a los dragones. Si ella o un aliado matan dragones, Shyvana obtiene resistencia mágica y armadura adicionales.",
+      "spellsDescription": {
+        "Shyvana_q": "Q: Humana: Golpea dos veces en si siguiente ataque básico y otorga velocidad de ataque. Dragón: Ataca a todas las unidades en frente.",
+        "Shyvana_w": "W: Humana: Se rodea de fuego, aumenta su velocidad de movimiento y hace daño a los enemigos cercanos. Dragón: El fuego que la rodea y la velocidad de movimiento es mayor.",
+        "Shyvana_e": "E: Humana: Lanza una vola de fuego y daña y marca a todos los enemigos en línea recta, atacar a un enemigo marcado hace más daño. Dragón: Escupe una bola de fuego que hace daño a todas los enemigos en la ubicación, además prende la zona en fuego por poco tiempo.",
+        "Shyvana_r": "R: Se transforma en un dragón y vuela hacia un lugar objetivo. Los enemigos que se encuentra en su camino son arrastrados con ella y les hace daño."
+      }
+    },
+    "Singed": {
+      "id": "Singed",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Obtiene velocidad de movimiento al tocar campeón aliado o enemigo.",
+      "spellsDescription": {
+        "Singed_q": "Q: Deja un rastro de veneno por donde pasa que daña a los enemigos.",
+        "Singed_w": "W: Lanza un frasco de Megadhesivo al suelo que ralentiza y no deja utilizar desplazamiento a todos los enemigos que lo pisen.",
+        "Singed_e": "E: Daña un enemigo y lo manda a volar hacia atrás de Singed. Se aturde si cae sobre el Megadhesivo.",
+        "Singed_r": "R: Aumenta el daño y su veneno causa Heridas Graves."
+      }
+    },
+    "Sion": {
+      "id": "Sion",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Después de morir, revivirá temporalmente con vida que decae con rapidez. Sus básicos lo curan e inflige daño dependiendo de su vida máxima.",
+      "spellsDescription": {
+        "Sion_q": "Q: Presionar: Hace daño a los enemigos en frente. Mantener: Carga un poderoso ataque en un área frente a él, si carga suficiente tiempo también levantará a los enemigos y quedarán aturdidos.",
+        "Sion_w": "W: Activa: Se pone un escudo, si no lo rompen puede reactivarlo para hacer daño a los enemigos cercanos. Pasiva: Al matar algún enemigo aumenta un poco la vida máxima de Sion.",
+        "Sion_e": "E: Lanza una onda de choque que daña, ralentiza y reduce la armadura del primer enemigo alcanzado. Si golpea un súbdito o monstruo, lo mandará a volar y ralentizará y reducirpa la armadura de todos los enemigos que atraviese.",
+        "Sion_r": "R: Se lanza a la carga a velocidad creciente. Puede cambiar ligeramente de dirección usando el cursor del ratón. Si embiste un enemigo se detiene y hace daño dependiendo de la distancia recorrida."
+      }
+    },
+    "Sivir": {
+      "id": "Sivir",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Obtiene un pequeño aumento de velocidad de movimiento cuando ataca a un campeón enemigo.",
+      "spellsDescription": {
+        "Sivir_q": "Q: Arroja su navaja en cruz como un búmeran, causando daño tanto a la ida como a la vuelta.",
+        "Sivir_w": "W: Los siguientes ataques básicos de Sivir obtienen velocidad de ataque adicional y rebotan contra los objetivos cercanos, los rebotes hacen daño reducido.",
+        "Sivir_e": "E: Crea una barrera por pocos segundos que la protege de la siguiente habilidad que la golpee. Si bloquea una habilidad recibe vida y velocidad de movimiento.",
+        "Sivir_r": "R: Aumenta la velocidad de movimiento suya y de sus aliados cercanos. Además los básicos de Sivir reduce el enfriamiento de sus habilidades."
+      }
+    },
+    "Skarner": {
+      "id": "Skarner",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Los enemigos golpeados por su Q y R reciben acumulaciones. Al tener el máximo de acumulaciones hace con relación de la vida máxima.",
+      "spellsDescription": {
+        "Skarner_q": "Q: Arranca una piedra del suelo que potencia sus próximos tres ataques o puede volver a usar la habilidad para lanzar la piedra.",
+        "Skarner_w": "W: Obtiene un escudo y crea un terremoto cuya onda de choque inflige daño y ralentiza a los enemigos.",
+        "Skarner_e": "E: Embiste hacia adelante y atraviesa el terreno. Si choca con un campeón o monstruo grande lo arrastrará. si golpean una pared aturdirá al objetivo.",
+        "Skarner_r": "R: Suprime los campeones enemigos que se encuentren frente a él (Máximo tres) y los puede mover con él por poco tiempo."
+      }
+    },
+    "Smolder": {
+      "id": "Smolder",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Impactar a campeones enemigos con habilidades o matar enemigos con su Q otorga cargas que mejora sus habilidades y mejora su Q progresivamente al llegar a 25/125/225 cargas.",
+      "spellsDescription": {
+        "Smolder_q": "Q: Sin cargas: Lanza bola de fuego que golpea un objetivo. 25 Cargas: Golpea al objetivo y a enemigos junto a él. 125 Cargas: Lanza bolas de fuego hacia atrás del objetivo. 225 Cargas: Ejecuta enemigos con vida baja.",
+        "Smolder_w": "W: Lanza un estornudo en línea recta que hace una pequeña exploción al impactar campeones enemigos y los ralentiza.",
+        "Smolder_e": "E: Levanta el vuelo, ignora el terreno y bombardea al enemigo cercano con menos vida.",
+        "Smolder_r": "R: Llama a su madre para que exale fuego en un gran rango, hace daño y ralentiza a los enemigos y cura un poco a Smolder."
+      }
+    },
+    "Sona": {
+      "id": "Sona",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Obtiene velocidad de habilidades si las usa de forma efectiva. Cada tres habilidades usadas obtiene un básico potenciado con respecto a la última habilidad que utilice.",
+      "spellsDescription": {
+        "Sona_q": "Q: Envía dos ondas de sonido que hace daño a dos enemigos cercanos, dan prioridad a campeones enemigos. Los aliados dentro del aura aumentan el daño de su siguiente básico. Básico potenciado: Hace más daño.",
+        "Sona_w": "W: Se cura y al aliado cercano con menos vida. Los aliados dentro del aura ganan un escudo. Básico potenciado: Reduce el daño del enemigo por tres segundos.",
+        "Sona_e": "E: Ella y los aliados que toquen el aura reciben siete segundos de velocidad de movimiento o hasta recibir daño. Básico potenciado: Reduce la velocidad de movimiento del objetivo.",
+        "Sona_r": "R: Lanza una onda en línea recta que aturde a los enemigos alcanzados y los pone a bailar."
+      }
+    },
+    "Soraka": {
+      "id": "Soraka",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Corre más rápido hacia los aliados cercanos con poca vida.",
+      "spellsDescription": {
+        "Soraka_q": "Q: Arroja una estrella a una ubicación objetivo que hace daño y ralentiza. Si golpea un campeón enemigo Soraka recupera vida.",
+        "Soraka_w": "W: Sacrifica parte de su vida para curar a un campeón aliado.",
+        "Soraka_e": "E: Crea una zona que silencia a todos los enemigos situados en su interior. Cuando acaba el efecto, los campeones enemigos dentro quedan inmovilizados.",
+        "Soraka_r": "R: Restaura inmediatamente su vida y la de todos los campeones aliados."
+      }
+    },
+    "Swain": {
+      "id": "Swain",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Recolectar Fragmentos de Alma lo curan y aumentan su vida máxima.",
+      "spellsDescription": {
+        "Swain_q": "Q: Lanza rayos de energía que atraviesan a los enemigos. Cada rayo que golpea a un enemigo le hace daño.",
+        "Swain_w": "W: Conjura un ojo a larga distancia, este revela una pequeña área, al explotar hace daño y ralentiza a los enemigos golpeados. Los campeones golpeados otorgan un Fragmento de Alma.",
+        "Swain_e": "E: Lanza una garra hacia delante, al devolverse y colisionar con un enemigo, atrapa a todos los enemigos cercanos. Puede recastear esta habilidad si atrapa a un campeón enemigo, esto los atrae y les recolecta un Fragmento de Alma.",
+        "Swain_r": "R: Se transforma en un demonio que drena la vida de los enemigos cercanos. Puede recastear esta habilidad cada poco tiempo para hacer daño y ralentizar a todos los enemigos cercanos. Esta forma es indefinida siempre que haya un campeón enemigo dentro de la habilidad."
+      }
+    },
+    "Sylas": {
+      "id": "Sylas",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Al lanzar un hechizo gana una carga. Realizar ataques básicos gasta una carga, al gastar una carga hace daño alrededor de Sylas y aumenta la velocidad de ataque si quedan cargas.",
+      "spellsDescription": {
+        "Sylas_q": "Q: Azota sus cadenas, las cuales se cruzan en la ubicación deseada. En la zona marcada ralentiza a los enemigos y deja una marca que tras poco tiempo explota, hace daño y ralentiza de nuevo a los enemigos sobre ella.",
+        "Sylas_w": "W: Se desplaza hacia un objetivo enemigo para hacerle daño. Si el objetivo es un campeón, también lo cura.",
+        "Sylas_e": "E: Se desplaza libremente hacia una ubicación cercana. Puede recastear la habilidad para extender sus cadenas y si golpean un enemigo se desplaza hasta él.",
+        "Sylas_r": "R: Roba la habilidad definitiva del enemigo y la puede lanzar libremente. No puede volver a robar la habilidad del mismo enemigo hasta que desaparezca la marca que les deja."
+      }
+    },
+    "Syndra": {
+      "id": "Syndra",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Reúne Fragmentos de Ira al subir de nivel e infligir daño a enemigos, lo que mejora sus todas sus habilidades.",
+      "spellsDescription": {
+        "Syndra_q": "Q: Conjura una Esfera Oscura en una ubicación que hace daño y permanece durante 6 segundos. Mejora: Acumula hasta dos cargas de esta habilidad.",
+        "Syndra_w": "W: Recoge y lanza una Esfera Oscura, un enemigo pequeño o mediano y los puede lanzar a un área cercana, dañando y ralentizando a los enemigos. Mejora: Hace daño verdadero adicional.",
+        "Syndra_e": "E: Empuja a los enemigos y a las Esferas Oscuras frente a ella. Los enemigos impactados por las Esferas Oscuras son aturdidos. Mejora: Aumenta el alcance de la habilidad.",
+        "Syndra_r": "R: Bombardea a un campeón enemigo con hasta 7 Esferas Oscuras. Mejora: Aumenta el alcance de lanzamiento y ejecuta enemigos con menos del 10% de vida. Si mata un enemigo hace una exploción que daña a los enemigos cercanos."
+      }
+    },
+    "TahmKench": {
+      "id": "TahmKench",
+      "roles": ["Top", "Supp"],
+      "passiveDescription": "Pasiva: Obtiene daño adicional según su vida total. Infligir daño a campeones enemigos acumula cargas (Máximo 3).",
+      "spellsDescription": {
+        "TahmKench_q": "Q: Golpea con su lengua, lo que inflige daño, ralentiza y aplica una carga de su pasiva a la primera unidad que alcance, y se cura a sí mismo si impacta a un campeón enemigo. Si el campeón ya tiene 3 cargas, al golpearlo con la lengua lo deja aturdido.",
+        "TahmKench_w": "W: Se sumerge y luego reaparece en la ubicación deseada, inflige daño y lanza por el aire a todos los enemigos en el área de salida.",
+        "TahmKench_e": "E: Pasiva: Almacena un porcentaje del daño que recibe y se cura según esta cantidad cuando está fuera de combate. Activa: Convierte todo el daño almacenado en un escudo temporal.",
+        "TahmKench_r": "R: Devora a un campeón durante unos segundos. Si es aliado lo vuelve inalcanzable y le coloca un escudo por poco tiempo. Si es enemigo tiene que aplicarle 3 marcas de la pasiva antes de comerlo, esto le hace daño. Si el enemigo tiene 3 cargas puede devorarlo a rango si lo golpea con su lengua."
+      }
+    },
+    "Taliyah": {
+      "id": "Taliyah",
+      "roles": ["Jg", "Mid"],
+      "passiveDescription": "Pasiva: Gana velocidad de movimiento cerca de los muros.",
+      "spellsDescription": {
+        "Taliyah_q": "Q: Lanza una ráfaga de rocas en la dirección de un objetivo y se mueve libremente mientras lanza y crea una zona bajo ella. Lanzar esta habilidad en una zona creada anteriormente, utiliza menos maná y consume la zona para lanzar una roca más fuerte que ralentiza a los enemigos.",
+        "Taliyah_w": "W: Crea un área que empuja a los enemigos dentro hacia una dirección que ella elija.",
+        "Taliyah_e": "E: Crea un campo minado que ralentiza. Si los enemigos se desplazan por él o son lanzados hacia él, las minas explotan y los aturde.",
+        "Taliyah_r": "R: Crea un muro muy largo en el que se puede desplazar si usa su habilidad rápidamente de nuevo."
+      }
+    },
+    "Talon": {
+      "id": "Talon",
+      "roles": ["Mid", "Jg"],
+      "passiveDescription": "Pasiva: Los hechizos de Talon hieren a campeones y monstruos grandes y se acumulan hasta tres veces. Cuando Talon ataca a un campeón con 3 acumulaciones de heridas, el objetivo sangra y recibe mucho daño prolongado.",
+      "spellsDescription": {
+        "Talon_q": "Q: Salta y apuñala al objetivo. Si el objetivo está cuerpo a cuerpo la puñalada hará daño crítico.",
+        "Talon_w": "W: Envía una ráfaga de dagas que luego vuelven hacia él, inflige daño físico cada vez que pasan por un enemigo. Al regresar hacen daño adicional y ralentizan a los enemigos.",
+        "Talon_e": "E: Salta sobre cualquier terreno o estructura. Esta habilidad tiene un enfriamiento corto, pero pone el terreno usado en un largo enfriamiento.",
+        "Talon_r": "R: Dispersa un anillo de cuchillas, se vuelve invisible y obtiene Velocidad de Movimiento adicional. Al salir de la invisibilidad las cuchillas van hacia él y hace daño a los enemigos que las tocan."
+      }
+    },
+    "Taric": {
+      "id": "Taric",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Los hechizos potencian sus siguientes 2 ataques básicos.",
+      "spellsDescription": {
+        "Taric_q": "Q: Cura al campeón aliado cercano con el que se haya vinculado. El enfriamiento de esta habilidad baja completamente después de realizar 2 ataques básicos.",
+        "Taric_w": "W: Se vincula con un campeón. Esto le da un escudo y si el aliado está cerca, los hechizos que lanza Taric también se lanzan desde el aliado.",
+        "Taric_e": "E: Prepara un haz de luz estelar que, después de una breve demora, inflige daño mágico y aturde a los enemigos.",
+        "Taric_r": "R: Crea un área a su alrededor y del aliado vinculado que al cargar, vuelve invulnerables al daño a todos los campeones aliados que estuvieran dentro del área al finalizar la carga."
+      }
+    },
+    "Teemo": {
+      "id": "Teemo",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Si se queda quieto y no hace nada durante unos instantes, se vuelve invisible de manera indefinida. Si está en un arbusto se puede mover. Tras revelarse obtiene velocidad de atauqe por poco tiempo.",
+      "spellsDescription": {
+        "Teemo_q": "Q: Nubla la visión de un enemigo hace daño y hace que el objetivo falle todos sus ataques básicos mientras dure el efecto.",
+        "Teemo_w": "W: Aumenta su velocidad de movimiento.",
+        "Teemo_e": "E: Pasiva: Cada ataque de básico envenena al objetivo por 4 segundos.",
+        "Teemo_r": "R: Lanza un hongo venenos explosivo que se vuelve invisible. Si un enemigo la pisa, suelta una nube venenosa que reduce la velocidad de los enemigos y los daña durante un tiempo. Si se lanza un hongo sobre otro, este rebotará y llegará más lejos."
+      }
+    },
+    "Thresh": {
+      "id": "Thresh",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Puede cosechar las almas de enemigos que mueren cerca de él, lo que le otorga Armadura y Poder de Habilidad de forma permanente.",
+      "spellsDescription": {
+        "Thresh_q": "Q: Lanza un gancho el linea recta que se engancha al primer enemigo que alcanza y lo atrae. Recastear esta habilidad lleva a Thresh hasta la ubicación del enemigo atrapado.",
+        "Thresh_w": "W: Lanza una linterna que coloca un escudo a los campeones aliados. Si un aliado toma la linterna lo desplaza hacia Thresh.",
+        "Thresh_e": "E: Desliza su cadena y lanza a todos los enemigos alcanzados hacia la dirección del impacto.",
+        "Thresh_r": "R: Una prisión de muros que ralentiza e inflige daño a los enemigos que la tocan."
+      }
+    },
+    "Tristana": {
+      "id": "Tristana",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Aumenta el alcance de los ataques básicos de Tristana cuando sube de nivel.",
+      "spellsDescription": {
+        "Tristana_q": "Q: Incrementa su velocidad de ataque durante un breve tiempo.",
+        "Tristana_w": "W: Dispara al suelo para saltar hasta un punto lejano. Al aterrizar, dañará y ralentizará a los enemigos cercanos. Los derribos de campeones restablecen el enfriamiento de esta habilidad.",
+        "Tristana_e": "E: Pasiva: matar una unidad hace que explote y haga daño a su alrededor. Activa: Lanza una bomba sobre un enemigo que explotará tras unos segundos, se puede cargar con básicos para hacer más daño y si se carga al máximo restablece en enfriamiento de su salto (W).",
+        "Tristana_r": "R: Carga una gran bola de cañón en su arma y la dispara a la unidad enemiga. Esto hace daño y aleja al enemigo."
+      }
+    },
+    "Trundle": {
+      "id": "Trundle",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Cuando una unidad enemiga muere cerca de Trundle, este se cura un porcentaje de su vida máxima.",
+      "spellsDescription": {
+        "Trundle_q": "Q: Muerde a su oponente y le inflige daño, lo ralentiza durante un breve periodo de tiempo y absorbe una porción de su daño de ataque.",
+        "Trundle_w": "W: Convierte una ubicación cercana en su territorio, aquí obtiene velocidad de ataque, movimiento y curación aumentada.",
+        "Trundle_e": "E: Crea un pilar de hielo en una ubicación determinada que ralentiza a todas las unidades enemigas cercanas.",
+        "Trundle_r": "R: Roba un porcentaje de la vida, armadura y resistencia mágica de su objetivo."
+      }
+    },
+    "Tryndamere": {
+      "id": "Tryndamere",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Gana furia por cada ataque realizado. La furia aumenta su probabilidad de crítico.",
+      "spellsDescription": {
+        "Tryndamere_q": "Q: Activa: Consume toda la furia conseguida para curarse. Pasiva: Obtiene daño de ataque entre menos vida tenga.",
+        "Tryndamere_w": "W: Grita. Esto reduce el ataque de los campeones que lo ven y ralentiza a los que le dan la espalda.",
+        "Tryndamere_e": "E: Se desplaza hacia una ubicación cercana, infligiendo daño a todos los enemigos que atraviesa.",
+        "Tryndamere_r": "R: Se vuelve inmortal por 5 segundos."
+      }
+    },
+    "TwistedFate": {
+      "id": "TwistedFate",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Al matar a una unidad, lanza un dado de la suerte. Recibe entre 1 y 6 de oro adicional.",
+      "spellsDescription": {
+        "TwistedFate_q": "Q: Lanza tres cartas en forma de cono que infligen daño a cada unidad enemiga que atraviesan.",
+        "TwistedFate_w": "W: Elige una carta mágica de su baraja y la usa para su próximo ataque. Roja: Hace daño en área. Amarilla: Aturde al objetivo. Azul: Hace más daño y regenera maná.",
+        "TwistedFate_e": "E: Pasiva: Cada 4 ataques inflige daño adicional y aumenta su velocidad de ataque.",
+        "TwistedFate_r": "R: Revela la ubicación de todos los enemigos y se puede teletransportar a gran distancia."
+      }
+    },
+    "Twitch": {
+      "id": "Twitch",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Los ataques básicos aplican cargas de veneno que dañan al objetivo e infligen daño verdadero cada seg (Máximos 6 cargas).",
+      "spellsDescription": {
+        "Twitch_q": "Q: Se vuelve invisible. Al salir de la invisivilidad obtiene velocidad de ataque. Los derribos de campeones enemigos restablece el enfriamiento de esta habilidad.",
+        "Twitch_w": "W: Lanza un barril de veneno que explota en un área. Ralentiza y aplica veneno a los enemigos que lo pisen (Hasta 4 cargas).",
+        "Twitch_e": "E: Inflige daño a todos los enemigos envenenados. Más daño entre más cargas de veneno tengan.",
+        "Twitch_r": "R: Aumenta el rango de los ataques básicos y estos atraviesan todos los objetivos."
+      }
+    },
+    "Udyr": {
+      "id": "Udyr",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: No tiene definitiva, solo 4 habilidades básicas. Usar una habilidad le da velocidad de ataque en sus siguientes dos básicos. Al cargar la energía puede potenciar una habilidad.",
+      "spellsDescription": {
+        "Udyr_q": "Q: Obtiene velocidad de ataque y hace daño adicional. Potenciada: Obtiene más velocidad de ataque e invoca rayos que dañan al objetivo.",
+        "Udyr_w": "W: Obtiene un escudo y sus siguientes dos básicos lo curan. Potenciada: Aumenta el escudo y la curación.",
+        "Udyr_e": "E: Obtiene velocidad de movimiento y aturde a cada objetivo con su primer ataque. Potenciada: Obtiene más velocidad de movimiento y se vuelve invulnerable a efectos de inmovilización durante poco tiempo.",
+        "Udyr_r": "R: Se rodea de una ventisca que hace daño y ralentiza a los enemigos cercanos. Potenciada: Vuelve más fuerte la tormenta y la libera para seguir a un enemigo cercano."
+      }
+    },
+    "Urgot": {
+      "id": "Urgot",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Cada cierto tiempo potencia un ataque básico hacia una dirección para hacer daño en área. Cada dirección tiene enfriamiento aparte.",
+      "spellsDescription": {
+        "Urgot_q": "Q: Arroja una carga explosiva a una ubicación que hace daño y ralentiza a los enemigos en esa área.",
+        "Urgot_w": "W: Urgot se ralentiza mientras dispara muchas balas contra los enemigos cercanos. Da prioridad a campeones enemigos dañados recientemente.",
+        "Urgot_e": "E: Se pone escudo y se desplaza en una dirección y hace daño. Si colisiona con un campeón enemigo se detendrá y lo lanzará hacia atrás de Urgot.",
+        "Urgot_r": "R: Dispara un taladro en línea recta a larga distancia que se adhiere a un campeón enemigo si lo toca. Si la vida de este enemigo baja de un límite, Urgot lo atrae y lo ejecuta."
+      }
+    },
+    "Varus": {
+      "id": "Varus",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Eliminar a un enemigo da daño, velocidad de ataque y poder de habilidad temporalmente. Esta bonificación es mayor si el enemigo es un campeón.",
+      "spellsDescription": {
+        "Varus_q": "Q: Se prepara y luego dispara un tiro potente. Tiene más daño y alcance entre más tiempo cargue el tiro. Puede explotar las marcas de sus enemigos.",
+        "Varus_w": "W: Activa: Potencia su siguiente disparo potente (Q). Pasiva: Los ataques básicos dejan una marca (Máximo 3). Explotar una marca reduce el enfriamiento de Q y E.",
+        "Varus_e": "E: Lanza una lluvia de flechas que hacen daño en un área, y la infecta. Los enemigos que la pisan son ralentizados y reciben Heridas Graves. Puede explotar las marcas de sus enemigos.",
+        "Varus_r": "R: Lanza una espiral que inmoviliza al primer campeón enemigo alcanzado y se expande a campeones enemigos cercanos y los que no se alejen en poco tiempo también quedarán inmovilizados. Los campeones inmovilizados empiezan a ganar marcas."
+      }
+    },
+    "Vayne": {
+      "id": "Vayne",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Obtiene velocidad de movimiento si se mueve hacia un campeón enemigo.",
+      "spellsDescription": {
+        "Vayne_q": "Q: Realiza una voltereta y su siguiente ataque básico hace daño adicional.",
+        "Vayne_w": "W: Pasiva: Cada tercer ataque consecutivo al mismo enemigo hace daño de acuerdo a la vida máxima del objetivo (cuenta como daño verdadero).",
+        "Vayne_e": "E: Dispara un proyectil que empuja a un enemigo. Si el enemigo impacta un terreno recibe daño adicional y queda aturdido.",
+        "Vayne_r": "R: Obtiene invisibilidad y daño de ataque cada vez que hace una voltereta. El enfriamiento de voltereta se reduce y tiene más velocidad de movimiento de la pasiva."
+      }
+    },
+    "Veigar": {
+      "id": "Veigar",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Gana poder de habilidad permanente cada vez que golpea un campeón enemigo con una habilidad.",
+      "spellsDescription": {
+        "Veigar_q": "Q: Lanza un rayo que hace daño a los primeros dos enemigos alcanzados. Todos los enemigos asesinados por esta habilidad aumentan permanentemente el poder de habilidad de Veigar.",
+        "Veigar_w": "W: Hace que caiga del cielo una masa de materia oscura en un área cercana. El poder de habilidad ganado con su pasiva reduce el enfriamiento de esta habilidad.",
+        "Veigar_e": "E: Crea una jaula que aturde a los enemigos que la tocan.",
+        "Veigar_r": "R: Lanza una explosión que hace mucho daño a un objetivo y no se puede fallar. El daño aumenta según la vida faltante del objetivo."
+      }
+    },
+    "Velkoz": {
+      "id": "Velkoz",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Las habilidades dejan una marca. Al llegar a 3 marcas, el enemigo recibirá daño verdadero.",
+      "spellsDescription": {
+        "Velkoz_q": "Q: Dispara un proyectil de plasma que se divide en dos al reactivarse o al alcanzar a un enemigo. El proyectil ralentiza e inflige daño al impacto.",
+        "Velkoz_w": "W: Abre una grieta al Vacío que inflige una explosión inicial de daño, luego explota y causa una segunda explosión de daño después de un breve periodo.",
+        "Velkoz_e": "E: Provoca que un área explote, esto lanza a los enemigos por el aire y los aleja un poco.",
+        "Velkoz_r": "R: Desata un rayo láser que sigue el cursor y hace mucho daño."
+      }
+    },
+    "Vex": {
+      "id": "Vex",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Cuando carga la pasiva, su siguiente habilidad asusta a los enemigos que golpea. Cada vez que un enemigo se desplaza lo deja marcado. El siguiente básico contra un enemigo marcado le hace daño adicional y gana cargas de la pasiva.",
+      "spellsDescription": {
+        "Vex_q": "Q: Lanza una ola hacia adelante que inflige daño a todos los enemigos que toca. Puede detonar las marcas de los enemigos.",
+        "Vex_w": "W: Obtiene un escudo y hace daño a todos los enemigos cercanos. Puede detonar las marcas de los enemigos.",
+        "Vex_e": "E: Arroja sombra en una ubicación que ralentiza y marca a todos los enemigos a las que golpea.",
+        "Vex_r": "R: Lanza una sombra hacia delante a gran distancia, hace daño a todos los enemigos y se detiene en el primer campéon golpeado. Si golpea un campeón enemigo puede volar hasta él. Si el enemigo muere luego de poco tiempo, Vex puede volver a lanzar esta habilidad."
+      }
+    },
+    "Vi": {
+      "id": "Vi",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Cuando no está en enfriamiento, hacer daño con una habilidad le coloca un escudo.",
+      "spellsDescription": {
+        "Vi_q": "Q: Carga los guantes para lanzar un puñetazo que la arrastra en una dirección. Golpear un enemigo hace daño y si es un campeón lo levanta un poco y aplica una carga de su W.",
+        "Vi_w": "W: Pasiva: Cada básico aplica una carga, cada tres cargas reduce el enfriamiento de su pasiva y le otorga velocidad de ataque.",
+        "Vi_e": "E: El siguiente ataque atraviesa a su enemigo y hace daño a los enemigos detrás de él.",
+        "Vi_r": "R: Se lanza hacia un enemigo, apartando a un lado a todo el que se cruza en su camino. Cuando alcanza al objetivo, lo lanza por el aire, salta tras él y lo derriba de un golpe."
+      }
+    },
+    "Viego": {
+      "id": "Viego",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Tras asistir en el asesinato de un campeón enemigo, Viego puede poseerlo temporalmente. Esto lo cura un poco y le da velocidad de movimiento hacia otros campeones enemigos.",
+      "spellsDescription": {
+        "Viego_q": "Q: Realiza una estocada hacia adelante que daña a todos los enemigos impactados y les deja una marca. Atacar con un básico explota la marca y cura un poco.",
+        "Viego_w": "W: Mantener: Se desplaza en una dirección y arroja una nieva que aturde y marca al primer enemigo impactado. El alcance y la duración del aturdimiento aumentan con el tiempo de carga de la habilidad.",
+        "Viego_e": "E: Propaga una onda de Niebla Negra alrededor de un muro cercano. Mientras se encuentre dentro de la niebla, Viego obtiene camuflaje y velocidad de ataque y de movimiento.",
+        "Viego_r": "R: Se teletransporta hacia un área cercana, hace daño y ralentiza a los enemigos en el área, se vuelve imparable mientras lo canaliza. Si tiene un enemigo bajo su posesión se deshace de este cuerpo y se teletransporta hacia un área cercana."
+      }
+    },
+    "Viktor": {
+      "id": "Viktor",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Por cada 100 Hexfragmentos victor puede mejorar una habilidad. Consigue Hexfragmentos matando súbditos o derribando campeones enemigos.",
+      "spellsDescription": {
+        "Viktor_q": "Q: Ataca a una unidad enemiga, le pone un pequeño escudo y potencia su siguiente básico. Mejora: Aumenta el escudo y otorga velocidad de movimiento.",
+        "Viktor_w": "W: Crea un campo gravitacional que ralentiza a los enemigos, si lo pisan por mucho tiempo quedan aturdidos. Mejora: Las habilidades de Viktor ralentizan a los enemigos.",
+        "Viktor_e": "E: Dispara un Rayo en línea recta haciendo daño a todos los enemigos en su camino. Mejora: Se produce una exploción sobre el rayo.",
+        "Viktor_r": "R: Crea una tormenta que hace daño a todos los enemigos dentro y sigue al objetivo. Mejora: Cuando Viktor consigue una participación en un derribo, aumenta la duración y el tamaño de la tormenta."
+      }
+    },
+    "Vladimir": {
+      "id": "Vladimir",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Transforma parte de la vida adicional en poder de habilidad y viceversa.",
+      "spellsDescription": {
+        "Vladimir_q": "Q: Roba vida a un enemigo, si el objetivo es un campeón la curación aumenta. Cuando se llena la barra, aumenta la vlocidad de movimiento y hace más daño y curación.",
+        "Vladimir_w": "W: Pierde 20% de su vida actual, se hunde en un charco de sangre y se vuelve inalcanzable durante 2 seg. Tocar a un enemigo con el charco, los ralentiza y les roba vida.",
+        "Vladimir_e": "E: Pierde vida para cargar un ataque a su alrededor al liberarla. Hace más daño entre más la carga. Las unidades enemigas la pueden bloquear.",
+        "Vladimir_r": "R: Infecta un área con una plaga. Los enemigos afectados reciben daño aumentado. Después de unos segundos, inflige daño a todos los enemigos infectados y cura a Vladimir por cada campeón enemigo alcanzado."
+      }
+    },
+    "Volibear": {
+      "id": "Volibear",
+      "roles": ["Top", "Jg"],
+      "passiveDescription": "Pasiva: Los ataques y habilidades de Volibear le otorgan velocidad de ataque y sus ataques pueden llegar a infligir daño mágico adicional a enemigos cercanos.",
+      "spellsDescription": {
+        "Volibear_q": "Q: Obtiene velocidad al dirigirse hacia enemigos. Aturdirá e infligirá daño al primero que ataque.",
+        "Volibear_w": "W: Hace daño a un enemigo con su próximo básico y lo deja marcado. Lanzar esta habilidad de nuevo sobre un enemigo marcado hace daño adicional y cura a Volibear.",
+        "Volibear_e": "E: Invoca un rayo sobre el área objetivo que hace daño y ralentiza a los enemigos dentro y coloca un escudo sobre Volibear si le cae encima.",
+        "Volibear_r": "R: Salta sobre un area que ralentiza y hace daño a los enemigos que aplasta, otorga vida adicional. Las torres enemigas cerca del área donde salta, quedarán desactivadas temporalmente."
+      }
+    },
+    "Warwick": {
+      "id": "Warwick",
+      "roles": ["Top","Jg"],
+      "passiveDescription": "Pasiva: Si Warwick se encuentra por debajo del 50% de Vida obtiene robo de vida. Si tiene menos del 25% de vida esta curación se triplica.",
+      "spellsDescription": {
+        "Warwick_q": "Q: Presionar: Muerde a su objetivo haciendo daño y curandolo dependiendo del daño realizado. Mantener: Se desplaza junto al objetivo enemigo y se le coloca en la espalda, además de hacer daño y curar a Warwick.",
+        "Warwick_w": "W: Activa: Gana los efectos pasivos de esta habilidad contra campeones cercanos. Pasiva: Huele a los enemigos con menos de 50% de vida en todo el mapa, gana velocidad de movimiento y de ataque hacia ellos. Bajo el 20% estas bonificaciones se triplican.",
+        "Warwick_e": "E: Recibe daño reducido por poco tiempo. Al finalizar, o si se activa de nuevo, Warwick aúlla y hace que los enemigos cercanos huyan de miedo.",
+        "Warwick_r": "R: Salta en una dirección (progresa con su velocidad de movimiento adicional) y suprime al primer campeón que alcanza."
+      }
+    },
+    "Xayah": {
+      "id": "Xayah",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Después de usar una habilidad, los siguientes ataques básicos de Xayah impactan a todos los enemigos en su camino y sueltan una pluma.",
+      "spellsDescription": {
+        "Xayah_q": "Q: Arroja dos dagas que infligen daño y dejan 2 Plumas al final de su recorrido.",
+        "Xayah_w": "W: Aumenta su velocidad de ataque y daño. También velocidad de movimiento si ataca un campeón enemigo.",
+        "Xayah_e": "E: Llama a todas las Plumas que soltara antes de usar esta habilidad, lo que inflige daño. Inmoviliza a los enemigos que son golpeados por 3 o más plumas.",
+        "Xayah_r": "R: Se eleva, lo que la vuelve imposible de atacar y arroja un abanico de dagas (Cada daga deja una pluma)."
+      }
+    },
+    "Xerath": {
+      "id": "Xerath",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Los ataques básicos de Xerath restauran maná cuando carga la pasiva (Aumenta si el objetivo es un campeón). Matar una unidad reduce el enfriamiento.",
+      "spellsDescription": {
+        "Xerath_q": "Q: Dispara un rayo de energía de largo alcance que inflige daño a todos los objetivos impactados.",
+        "Xerath_w": "W: Invoca un rayo de energía arcana que ralentiza e inflige daño a todos los enemigos de una zona. Los enemigos en el centro son ralentizados aún más.",
+        "Xerath_e": "E: Inflige daño mágico a un enemigo y lo aturde.",
+        "Xerath_r": "R: Se inmoviliza y obtiene varias bolas que puede arrojar a gran alcance."
+      }
+    },
+    "XinZhao": {
+      "id": "XinZhao",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Cada tercer ataque inflige una bonificación de daño y cura a Xin Zhao.",
+      "spellsDescription": {
+        "XinZhao_q": "Q: Los siguientes tres ataques estándar de Xin Zhao infligirán daño aumentado y el tercero lanzará a un oponente por el aire.",
+        "XinZhao_w": "W: Corta frente a él con su lanza y luego hace una estocada hacia adelante que ralentiza a los enemigos afectados y los marca.",
+        "XinZhao_e": "E: Salta hacia un enemigo cercano, aumenta la velocidad de ataque, hace daño y ralentiza a los enemigos cercanos. Aumenta el alcance de salto contra los enemigos marcados.",
+        "XinZhao_r": "R: Lanza hacia atrás a los objetivos cercanos menos al que Xin Zhao daña reciente mente. Se vuelve inmune al daño que le hacen los campeones desde fuera del circulo."
+      }
+    },
+    "Yasuo": {
+      "id": "Yasuo",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Va acumulando su escudo mientras se mueve que se activa al recibir daño y tener el escudo cargado. Aumenta la probabilidad de crítico que compra.",
+      "spellsDescription": {
+        "Yasuo_q": "Q: Lanza una estocada al frente. Después de golpear dos veces en poco tiempo, la tercera estocada lanza un tornado que levanta a los enemigos que alcanza.",
+        "Yasuo_w": "W: Crea un muro que bloquea todos los proyectiles enemigos.",
+        "Yasuo_e": "E: Se desliza a través de un enemigo seleccionado. Cada vez que se atraviesa un enemigo este entra en efriamiento y no se puede atravesar de nuevo. Si se usa esta habilidad y luego la Q hace daño alrededor al finalizar el desplazamiento.",
+        "Yasuo_r": "R: Aparece junto al campeón enemigo que esté en el aire. Además, todos los enemigos que estén en el aire permanecen suspendidos y recarga su escudo al máximo. También Yasuo obtiene penetración de armadura adicional."
+      }
+    },
+    "Yone": {
+      "id": "Yone",
+      "roles": ["Top", "Mid"],
+      "passiveDescription": "Pasiva: Inflige daño mágico con cada segundo ataque. Aumenta la probabilidad de crítico que compra.",
+      "spellsDescription": {
+        "Yone_q": "Q: Lanza una estocada hacia adelante y daña a todos los enemigos en una línea. Después de golpear dos veces en poco tiempo, la tercera estocada desplaza a Yone hacia una dirección que levanta a los enemigos que alcanza.",
+        "Yone_w": "W: Hace un corte hacia adelante e inflige daño a todos los enemigos. Recibe un escudo que aumenta con los campeones dañados.",
+        "Yone_e": "E: Se desprende de su cuerpo, lo que le otorga velocidad de movimiento. Al finalizar esta habilidad, el espíritu de Yone regresa a su cuerpo y repite un porcentaje del daño que infligió como espíritu.",
+        "Yone_r": "R: Se desplaza en una línea recta, si golpea uno o varios campeónes enemigos se coloca detrás del ultimo enemigo y atrae al resto hacia él."
+      }
+    },
+    "Yorick": {
+      "id": "Yorick",
+      "roles": ["Top"],
+      "passiveDescription": "Pasiva: Puede invocar a caminantes de la niebla para que ataquen a los enemigos cercanos. Cada pocos enemigos que mueren cerca dejan una tumba.",
+      "spellsDescription": {
+        "Yorick_q": "Q: Inflige daño adicional en su siguiente ataque y se cura. Si muere un objetivo, se cavará una tumba. Presionar esta habilidad al tener 3 o 4 tumbas invocará los entes de la niebla.",
+        "Yorick_w": "W: Invoca un muro destruible en la ubicación objetivo que bloqueará el movimiento enemigo.",
+        "Yorick_e": "E: Lanza un glóbulo de Niebla Negra que inflige daño, ralentiza y marca a los enemigos. Los caminantes de la niebla saltan hacia los enemigos marcados y les hace daño.",
+        "Yorick_r": "R: Invoca a la Dama de la Niebla, que provoca que los ataques de Yorick al objetivo de la Dama inflijan daño adicional. La Dama además convertirá a los enemigos muertos en caminantes."
+      }
+    },
+    "Yuumi": {
+      "id": "Yuumi",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Al estar unida, Yuumi genera una unión especial con sus aliados, cuando su aliado elimina un súbdito. El aliado con la unión más fuerte potencia las habilidades de Yuumi al estar unida a él.",
+      "spellsDescription": {
+        "Yuumi_q": "Q: Dispara un misíl que causa daño y ralentiza al primer objetivo alcanzado. Si está unida a un campeón puede controlar un poco el misil.",
+        "Yuumi_w": "W: Se desplaza hacia un campeón aliado y se vuelve inalcanzable.",
+        "Yuumi_e": "E: Protege a Yuumi y aumenta la velocidad movimiento y de ataque. Si está unida, pasa este efecto a su aliado.",
+        "Yuumi_r": "R: Canaliza cinco oleadas que dañan a los enemigos y curan a los aliados."
+      }
+    },
+    "Zac": {
+      "id": "Zac",
+      "roles": ["Jg"],
+      "passiveDescription": "Pasiva: Cada vez que Zac alcanza a un enemigo con una habilidad, pierde un trozo de sí mismo que puede reabsorberse para restaurar vida. Al recibir un golpe letal Zac se divide en 4 partículas que se intentan combinar, al combinarse revivirá.",
+      "spellsDescription": {
+        "Zac_q": "Q: Estira un brazo y agarra a un enemigo. Atacar a un enemigo diferente causará que lance a los dos objetivos el uno contra el otro.",
+        "Zac_w": "W: Explota hacia afuera en dirección de los enemigos cercanos, lo que inflige un porcentaje de su vida máxima como daño mágico.",
+        "Zac_e": "E: Amarra sus brazos al suelo y los extiende hacia atrás para lanzarse.",
+        "Zac_r": "R: Rebota cuatro veces, lo que lanza a los enemigos por el aire y los ralentiza."
+      }
+    },
+    "Zed": {
+      "id": "Zed",
+      "roles": ["Mid"],
+      "passiveDescription": "Pasiva: Los ataques básicos de Zed contra objetivos con menos de la mitad de la vida infligen daño mágico adicional. Este efecto solo puede aplicarse una vez cada cierto tiempo contra el mismo enemigo.",
+      "spellsDescription": {
+        "Zed_q": "Q: Zed y sus sombras arrojan sus shurikens. Cada shuriken inflige daño a todos los enemigos alcanzados.",
+        "Zed_w": "W: Lanza una sombra hacia adelante que permanece en un área por unos segundos. Reactivar la habilidad hará que Zed cambie de posición con esta sombra.",
+        "Zed_e": "E: Zed y sus Sombras lanzan una cuchillada que inflige daño a los enemigos cercanos. Los enemigos alcanzados por la cuchillada de una Sombra quedan ralentizados.",
+        "Zed_r": "R: Zed se vuelve inalcanzable, deja una sombra en su lugar y se desplaza hacia un campeón enemigo para marcarlo. La marca se activa después de 3 seg, lo que repite una parte del daño que Zed infligió al objetivo mientras estaba marcado."
+      }
+    },
+    "Zeri": {
+      "id": "Zeri",
+      "roles": ["Adc"],
+      "passiveDescription": "Pasiva: Moverse y lanzar Ráfaga de Luz permite que Zeri almacene energía. Cuando está completamente cargado, su siguiente ataque básico infligirá daño adicional.",
+      "spellsDescription": {
+        "Zeri_q": "Q: Ráfaga de Luz dispara 7 balas consecutivas que infligen daño de ataque al primer enemigo impactado.",
+        "Zeri_w": "W: Dispara un pulso eléctrico que ralentiza y daña al primer enemigo golpeado. Si el pulso golpea una pared, se convierte y extiende como láser de largo alcance.",
+        "Zeri_e": "E: Se desplaza una distancia corta y energiza sus siguientes lanzamientos de la Q. Esto hace que atraviesen a los enemigos. El desplazamiento junto a un muto hará que se deslice a través de todo el muro.",
+        "Zeri_r": "R: Hace daño a todo su alrededor y obtiene daño y velocidad de movimiento acumulable que se acumula cada vez que impacta un campeón enemigo. Su Q dispara más rápido y desara una cadena de rayos."
+      }
+    },
+    "Ziggs": {
+      "id": "Ziggs",
+      "roles": ["Mid", "Adc"],
+      "passiveDescription": "Pasiva: El siguiente básico hace más daño. Aumenta el daño si es contra estructuras. Lanzar una habilidad reduce el enfriamiento.",
+      "spellsDescription": {
+        "Ziggs_q": "Q: Lanza una bomba que rebota hasta tres veces si no colisiona con nada. Al explotar hace daño en área.",
+        "Ziggs_w": "W: Tira al suelo una carga explosiva la explosión que se puede detonar presionando la habilidad de nuevo. Manda a volar a ziggs y a los enemigos que la pisen. Puede destruir torres enemigas con poca vida.",
+        "Ziggs_e": "E: Esparce minas de proximidad que detonan al entrar en contacto con el enemigo, hace daño y ralentiza. Si el mismo enemigo pisa varias minas les hace menos daño.",
+        "Ziggs_r": "R: Arroja una Bomba Megainfernal en un área a gran distancia. Los enemigos en el centro de la habilidad recibirán más daño."
+      }
+    },
+    "Zilean": {
+      "id": "Zilean",
+      "roles": ["Supp"],
+      "passiveDescription": "Pasiva: Almacena parte de la experiencia ganada. Cuando tiene suficiente experiencia para terminar el nivel de un aliado puede entregarsela. Zilear también recibe la experiencia que da.",
+      "spellsDescription": {
+        "Zilean_q": "Q: Arroja una bomba a una zona, la bomba se adhiere a una unidad cercana (prioriza campeones), poco después hace daño. Lanzar una bomba sobre un enemigo con bomba adherida aturde a todos los enemigos en el área.",
+        "Zilean_w": "W: Restablece el enfriamiento de sus demás habilidades básicas.",
+        "Zilean_e": "E: Reduce la velocidad de movimiento de un enemigo o aumenta la de un aliado durante un breve periodo.",
+        "Zilean_r": "R: Coloca sobre un campeón aliado una runa temporal que lo lleva atrás en el tiempo en caso de sufrir daño letal."
+      }
+    },
+    "Zoe": {
+      "id": "Zoe",
+      "roles": ["Mid", "Supp"],
+      "passiveDescription": "Pasiva: Tras lanzar un hechizo, el siguiente ataque básico de Zoe inflige daño mágico adicional.",
+      "spellsDescription": {
+        "Zoe_q": "Q: Dispara un misil hacia una ubicación, luego puede volver a presionar la habilidad para dirigirlo a una nueva ubicación. Cuanta más distancia haya recorrido en línea recta, más daño infligirá.",
+        "Zoe_w": "W: Zoe puede recoger los hechizos de invocador enemigos y las activas de los objetos y lanzarlos una vez. Cuando lanza un hechizo de invocador, consigue 3 misiles que dispara al objetivo más cercano.",
+        "Zoe_e": "E: Lanza una burbuja (con rango infinito a través de muros) y golpea al primer enemigo que alcanza. Duerme al objetivo, reduce la resistencia mágica y aumenta el daño del primer ataque que lo despierte.",
+        "Zoe_r": "R: Zoe se traslada a una ubicación cercana durante 1 s y después vuelve al punto inicial."
+      }
+    },
+    "Zyra": {
+      "id": "Zyra",
+      "roles": ["Supp", "Jg"],
+      "passiveDescription": "Pasiva: Aparecen semillas alrededor de zyra periodicamente. Lanzar una habilidad cerca de una semilla hace brotar una planta.",
+      "spellsDescription": {
+        "Zyra_q": "Q: Salen vides (plantas) del suelo que hacen daño. Si hace crecer una semilla, crece una planta que disparará a enemigos a larga distancia.",
+        "Zyra_w": "W: Planta una semilla.",
+        "Zyra_e": "E: Lanza vides (plantas) en línea recta que atrapa a los enemigos que toca. Si hace crecer una semilla, crece una planta que ataca a corta distancia y ralentiza al enemigo que ataca.",
+        "Zyra_r": "R: Invoca un matorral que hace daño y levanta a los enemigos en el área. Potencia a las plantas dentro de la habilidad."
+      }
+    }
+  }
+  
