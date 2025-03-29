@@ -21,6 +21,18 @@ const rolesMap: Record<string, string | null> = {
   "FillIcon.png": null,
 };
 
+const colorCycle = [
+  "#093a63",
+  "#8e6b92",
+  "#012a30",
+  "#56000b",
+  "#2b190d",
+  "#3a3329",
+  "#292f47",
+  "#1c2b24",
+  "#212121",
+];
+
 const preloadChampionImage = (imageUrl: string) => {
   const img = new Image();
   img.src = imageUrl;
@@ -53,6 +65,7 @@ export default function Home() {
         imageUrl:
           "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ziggs_24.jpg",
       } as { id: string; name: string; imageUrl: string } | null,
+      color: 0,
     },
   ]);
   const [championRoles, setChampionRoles] = useState<ChampionRoles | null>(null);
@@ -181,7 +194,6 @@ export default function Home() {
       );
 
       if (availableRoles.length === 0) {
-        console.warn("No hay roles disponibles");
         return;
       }
 
@@ -202,6 +214,7 @@ export default function Home() {
             name: `Player ${newId}`,
             role: newRole,
             champion: newChampion,
+            color: newId -1 ,
           },
         ];
       });
@@ -266,6 +279,8 @@ export default function Home() {
                 key={card.id}
                 initialName={card.name}
                 role={card.role}
+                colorCycle={colorCycle}
+                numberColor={card.color}
                 champion={card.champion}
                 isLocked={lockedRoles[card.id] || false}
                 changeIcon={() => toggleLockRole(card.id)}

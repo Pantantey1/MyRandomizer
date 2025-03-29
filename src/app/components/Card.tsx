@@ -4,10 +4,13 @@ import Link from "next/link";
 import ReplayIcon from "@mui/icons-material/Replay";
 import LockIcon from "@mui/icons-material/Lock";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
+import CreateIcon from "@mui/icons-material/Create";
 
 interface CardProps {
   initialName: string;
   role: string;
+  colorCycle: string[];
+  numberColor: number;
   champion: { id: string; name: string; imageUrl: string } | null;
   isLocked: boolean;
   changeIcon: () => void;
@@ -24,21 +27,11 @@ const roleIcons = [
   "FillIcon.png",
 ];
 
-const colorCycle = [
-  "#093a63",
-  "#8e6b92",
-  "#012a30",
-  "#56000b",
-  "#2b190d",
-  "#3a3329",
-  "#292f47",
-  "#1c2b24",
-  "#212121",
-];
-
 export default function Card({
   initialName,
   role,
+  colorCycle,
+  numberColor,
   champion,
   isLocked,
   changeIcon,
@@ -47,8 +40,8 @@ export default function Card({
 }: CardProps) {
   const [name, setName] = useState(initialName);
 
-  const [cardColorIndex, setCardColorIndex] = useState(0);
-  const [buttonColorIndex, setButtonColorIndex] = useState(1);
+  const [cardColorIndex, setCardColorIndex] = useState(numberColor);
+  const [buttonColorIndex, setButtonColorIndex] = useState(numberColor + 1);
 
   const changeRole = () => {
     if (isLocked) return;
@@ -65,24 +58,34 @@ export default function Card({
     setButtonColorIndex((prevIndex) => (prevIndex + 1) % colorCycle.length);
   };
 
-  const getChampionNames = (championName : string) => {
-    if (championName === "Nunu & Willump") return "Nunu"
-    else if (championName === "Renata Glasc") return "Renata"
-    else return championName
-  }
+  const getChampionNames = (championName: string) => {
+    if (championName === "Nunu & Willump") return "Nunu";
+    else if (championName === "Renata Glasc") return "Renata";
+    else return championName;
+  };
 
   return (
     <div className="flex flex-col items-center">
       <div
         className={`relative flex flex-col items-center w-[180px] h-[489] border border-2 border-[#CBAB70] border-b-transparent`}
-        style={{background: colorCycle[cardColorIndex]}}
+        style={{ background: colorCycle[cardColorIndex] }}
       >
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="text-lg font-bold py-3 bg-black text-white w-full text-center outline-none"
-        />
+        <div className="start-[13px] top-[12px] absolute">
+          <button
+            onClick={handleFButtonClick}
+            className={`border-solid border-2 border-black  w-7 h-7 rounded-full`}
+            style={{ background: colorCycle[buttonColorIndex] }}
+          />
+        </div>
+        <div className="group pointer-events-auto">
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="text-lg font-bold py-3 bg-black text-white w-full text-center outline-none peer z-[3]"
+          />
+          <CreateIcon className="pointer-events-none end-[14px] top-[14px] absolute opacity-0 transition-opacity duration-200 group-hover:opacity-100 peer-focus:opacity-100 z-[2]" />
+        </div>
 
         <div className="flex flex-col items-center">
           {champion && (
@@ -91,7 +94,7 @@ export default function Card({
                 <Image
                   src={champion.imageUrl}
                   alt={champion.id}
-                  width={175}
+                  width={200}
                   height={100}
                   className="hover:filter hover:brightness-50 transition-all"
                 />
@@ -109,13 +112,6 @@ export default function Card({
               </div>
             </>
           )}
-        </div>
-        <div className="end-[10px] top-[11px] absolute">
-          <button
-            onClick={handleFButtonClick}
-            className={`border-solid border-2 border-black  w-7 h-7 rounded-full`}
-            style={{background: colorCycle[cardColorIndex]}}
-          />
         </div>
 
         <div className="flex justify-center gap-2 h-[70px] items-center mt-1 mb-2">
@@ -146,7 +142,7 @@ export default function Card({
       <div
         style={{
           borderLeftWidth: "88px",
-          borderLeftColor: colorCycle[cardColorIndex], 
+          borderLeftColor: colorCycle[cardColorIndex],
           borderRightWidth: "88px",
           borderRightColor: colorCycle[cardColorIndex],
           borderBottomWidth: "40px",
