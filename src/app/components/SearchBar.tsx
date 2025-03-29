@@ -28,7 +28,7 @@ export default function SearchBar({ search, setSearch, selectedRole, setSelected
             onClick={() => handleRoleClick(role)}
           >
             <Image
-              src={`/icons/${role}Icon.png`}
+              src={`/${role}Icon.png`}
               alt={`${role} icon`}
               width={27}
               height={27}

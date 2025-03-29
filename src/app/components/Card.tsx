@@ -68,7 +68,7 @@ export default function Card({
   return (
     <div className="flex flex-col items-center">
       <div
-        className={`relative flex flex-col items-center w-[180px] border border-2 border-[#CBAB70] border-b-transparent`}
+        className={`relative flex flex-col items-center w-[180px] h-[489] border border-2 border-[#CBAB70] border-b-transparent`}
         style={{background: colorCycle[cardColorIndex]}}
       >
         <input
@@ -118,7 +118,7 @@ export default function Card({
             className={`cursor-pointer ${isLocked ? "opacity-65" : ""}`}
           >
             <Image
-              src={`/icons/${role}`}
+              src={`/${role}`}
               alt="RoleIcon"
               width={45}
               height={45}

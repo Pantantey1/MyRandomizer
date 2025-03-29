@@ -20,16 +20,13 @@ export default function Champions() {
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
 
   useEffect(() => {
-    // Revisa si ya tenemos los campeones en el localStorage
     const savedChampions = localStorage.getItem("championsData");
 
     if (savedChampions) {
-      // Si existe, usamos esos datos
       const championsArray = JSON.parse(savedChampions);
       setChampions(championsArray);
       setFilteredChampions(championsArray);
     } else {
-      // Si no existe, hacemos el llamado al API
       async function fetchChampions() {
         try {
           const res = await fetch(
@@ -50,7 +47,6 @@ export default function Champions() {
             roles: localData[key]?.roles || [],
           }));
 
-          // Guardamos los campeones en localStorage
           localStorage.setItem("championsData", JSON.stringify(championsArray));
 
           setChampions(championsArray);
