@@ -1,3 +1,4 @@
+"use client";
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -12,14 +13,18 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { styled } from '@mui/material/styles';
 import Link from 'next/link';
+import { Divider } from '@mui/material'; // Agregar Divider para separar elementos
 
-const pages = ['Inicio','Campeones'];
+const pages = ['Inicio', 'Campeones'];
 
-const StyledButton = styled(Button)({
+const StyledButton = styled(Button)(({ theme }) => ({
   '&:hover': {
-    backgroundColor:'#0f507c',
+    backgroundColor: '#0f507c',
   },
-});
+  padding: theme.spacing(0, 4),
+  fontSize: '16px',
+  textTransform: 'none',
+}));
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -33,8 +38,8 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: '#093a63', borderBottom: "1px solid #CBAB70"}}>
-      <Container maxWidth="xl" sx={{display:'flex', justifyContent:'center'}}>
+    <AppBar position="static" sx={{ backgroundColor: '#093a63', borderBottom: "1px solid #CBAB70" }}>
+      <Container maxWidth="xl" sx={{ display: 'flex', justifyContent: 'center' }}>
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
@@ -58,7 +63,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
+              aria-label="menu"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -83,33 +88,18 @@ function ResponsiveAppBar() {
               sx={{ display: { xs: 'block', md: 'none' } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link href={`/${page === 'Inicio' ? '' : 'champions'}`} passHref>
-                    <Typography textAlign="center">{page}</Typography>
-                  </Link>
-                </MenuItem>
+                <div key={page}>
+                  <MenuItem onClick={handleCloseNavMenu}>
+                    <Link href={`/${page === 'Inicio' ? '' : 'champions'}`} passHref>
+                      <Typography textAlign="center">{page}</Typography>
+                    </Link>
+                  </MenuItem>
+                  <Divider sx={{ my: 1 }} /> {/* Agregar separador entre elementos */}
+                </div>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
+
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Link key={page} href={`/${page === 'Inicio' ? '' : 'champions'}`} passHref>

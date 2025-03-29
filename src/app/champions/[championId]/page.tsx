@@ -60,10 +60,15 @@ export default function ChampionDetails() {
   if (!champion) return <p>Cargando...</p>;
 
   return (
-    <div
-      className="bg-cover bg-fixed bg-center h-screen"
-      style={{ backgroundImage: 'url(/fondo2.png)' }}
-    >
+    <div className="relative min-h-screen">
+      <div
+        className="fixed top-0 left-0 w-screen h-screen bg-cover bg-no-repeat z-[-1]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(/fondo2.png)",
+        }}
+      ></div>
+
       <Header />
       <div className="flex flex-col items-center">
         <div className="grid max-w-5xl mx-4 mt-12 bg-[#0a0a0a] border-2 border-[#CBAB70]">
