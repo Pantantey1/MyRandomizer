@@ -89,28 +89,28 @@ export default function Card({
 
         <div className="flex flex-col items-center">
           {champion && (
-            <>
-              <Link href={`/champions/${champion.id}`} target="_blank">
-                <Image
-                  src={champion.imageUrl}
-                  alt={champion.id}
-                  width={200}
-                  height={100}
-                  className="hover:filter hover:brightness-50 transition-all"
-                />
-              </Link>
-              <div className="flex">
-                <h3 className="text-lg font-bold mt-1">
-                  {getChampionNames(champion.name)}
-                </h3>
-                <button
-                  onClick={randomizeChampion}
-                  className="absolute end-[0] bg-[#1b6d6b] hover:bg-[#2D7F79] w-8 h-8"
-                >
-                  <ReplayIcon />
-                </button>
-              </div>
-            </>
+            <Link href={`/champions/${champion.id}`} target="_blank">
+              <Image
+                src={champion.imageUrl}
+                alt={champion.id}
+                width={200}
+                height={364}
+                className="hover:filter hover:brightness-50 transition-all"
+              />
+            </Link>
+          ) }
+          {champion && (
+            <div className="flex">
+              <h3 className="text-lg font-bold mt-1">
+                {getChampionNames(champion.name)}
+              </h3>
+              <button
+                onClick={randomizeChampion}
+                className="absolute end-[0] bottom-[81.4px] bg-[#1b6d6b] hover:bg-[#2D7F79] w-8 h-8"
+              >
+                <ReplayIcon />
+              </button>
+            </div>
           )}
         </div>
 
