@@ -65,6 +65,12 @@ export default function Card({
     setButtonColorIndex((prevIndex) => (prevIndex + 1) % colorCycle.length);
   };
 
+  const getChampionNames = (championName : string) => {
+    if (championName === "Nunu & Willump") return "Nunu"
+    else if (championName === "Renata Glasc") return "Renata"
+    else return championName
+  }
+
   return (
     <div className="flex flex-col items-center">
       <div
@@ -75,7 +81,7 @@ export default function Card({
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="text-lg font-bold py-3 bg-black text-white w-full text-center"
+          className="text-lg font-bold py-3 bg-black text-white w-full text-center outline-none"
         />
 
         <div className="flex flex-col items-center">
@@ -85,14 +91,14 @@ export default function Card({
                 <Image
                   src={champion.imageUrl}
                   alt={champion.id}
-                  width={206}
+                  width={175}
                   height={100}
                   className="hover:filter hover:brightness-50 transition-all"
                 />
               </Link>
               <div className="flex">
                 <h3 className="text-lg font-bold mt-1">
-                  {champion.name === "Nunu & Willump" ? "Nunu" : champion.name}
+                  {getChampionNames(champion.name)}
                 </h3>
                 <button
                   onClick={randomizeChampion}

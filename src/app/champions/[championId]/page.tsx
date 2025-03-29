@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Header from "@/app/components/Header";
+import CircularProgress from "@mui/material/CircularProgress"; // Importa CircularProgress
 
 interface Ability {
   id: string;
@@ -57,7 +58,13 @@ export default function ChampionDetails() {
     if (championId) fetchChampionDetails();
   }, [championId]);
 
-  if (!champion) return <p>Cargando...</p>;
+  if (!champion) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <CircularProgress />
+      </div>
+    );
+  }
 
   return (
     <div className="relative min-h-screen">
