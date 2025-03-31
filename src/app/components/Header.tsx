@@ -30,8 +30,8 @@ const Logo = () => (
     <Image
       src="/LogoIcon.png"
       alt="Logo"
-      width={90}
-      height={90}
+      width={40}
+      height={40}
       style={{ cursor: "pointer" }}
     />
   </Link>

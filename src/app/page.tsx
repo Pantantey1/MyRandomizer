@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Header from "@/app/components/Header";
 import Card from "./components/Card";
+import { motion, AnimatePresence } from "framer-motion";
 
 const icons = [
   "TopIcon.png",
@@ -26,12 +27,21 @@ const colorCycle = [
   "#8e6b92",
   "#012a30",
   "#56000b",
+  "#292f47",
   "#2b190d",
   "#3a3329",
-  "#292f47",
   "#1c2b24",
   "#212121",
 ];
+
+const namesList = ["El pro", "Juana", "El noob", "Tilt", "Lilith", "Casi AFK", "Queso", "Marcelo", "Gokú", "Lag Mental", "Vikingo", "Hambriento", "Ciego", "Minion", "Flamer", "Conocedor", "Perro"];
+
+const getRandomName = (usedNames : string[]) => {
+  const availableNames = namesList.filter((name) => !usedNames.includes(name));
+  return availableNames.length > 0
+    ? availableNames[Math.floor(Math.random() * availableNames.length)]
+    : "Player";
+};
 
 const preloadChampionImage = (imageUrl: string) => {
   const img = new Image();
@@ -57,7 +67,7 @@ export default function Home() {
   const [cards, setCards] = useState([
     {
       id: 1,
-      name: "Player 1",
+      name: getRandomName([]),
       role: "FillIcon.png",
       champion: {
         id: "Ziggs",
@@ -68,7 +78,9 @@ export default function Home() {
       color: 0,
     },
   ]);
-  const [championRoles, setChampionRoles] = useState<ChampionRoles | null>(null);
+  const [championRoles, setChampionRoles] = useState<ChampionRoles | null>(
+    null
+  );
   const [lockedRoles, setLockedRoles] = useState<Record<number, boolean>>({});
   const [champions, setChampions] = useState<Champion[]>([]);
 
@@ -78,7 +90,7 @@ export default function Home() {
         const rolesResponse = await fetch("/data/championData.json");
         const rolesData: ChampionRoles = await rolesResponse.json();
         setChampionRoles(rolesData);
-        
+
         const response = await fetch(
           `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`
         );
@@ -146,7 +158,9 @@ export default function Home() {
 
     setCards((prevCards) => {
       const lockedRolesSet = new Set(
-        prevCards.filter((card) => lockedRoles[card.id]).map((card) => card.role)
+        prevCards
+          .filter((card) => lockedRoles[card.id])
+          .map((card) => card.role)
       );
 
       let availableRoles = icons.filter(
@@ -187,6 +201,8 @@ export default function Home() {
 
   const addCard = () => {
     if (cards.length < 5) {
+      const usedNames = cards.map((card) => card.name);
+      const newName = getRandomName(usedNames);
       const assignedRoles = new Set(cards.map((card) => card.role));
 
       const availableRoles = icons.filter(
@@ -211,10 +227,10 @@ export default function Home() {
           ...prevCards,
           {
             id: newId,
-            name: `Player ${newId}`,
+            name: newName,
             role: newRole,
             champion: newChampion,
-            color: newId -1 ,
+            color: newId - 1,
           },
         ];
       });
@@ -274,26 +290,35 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            {cards.map((card) => (
-              <Card
-                key={card.id}
-                initialName={card.name}
-                role={card.role}
-                colorCycle={colorCycle}
-                numberColor={card.color}
-                champion={card.champion}
-                isLocked={lockedRoles[card.id] || false}
-                changeIcon={() => toggleLockRole(card.id)}
-                setRole={(newRole) => {
-                  setCards((prevCards) =>
-                    prevCards.map((c) =>
-                      c.id === card.id ? { ...c, role: newRole } : c
-                    )
-                  );
-                }}
-                randomizeChampion={() => generateRandomForCard(card.id)}
-              />
-            ))}
+            <AnimatePresence>
+              {cards.map((card) => (
+                <motion.div
+                  key={card.id}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <Card
+                    initialName={card.name}
+                    role={card.role}
+                    colorCycle={colorCycle}
+                    numberColor={card.color}
+                    champion={card.champion}
+                    isLocked={lockedRoles[card.id] || false}
+                    changeIcon={() => toggleLockRole(card.id)}
+                    setRole={(newRole) => {
+                      setCards((prevCards) =>
+                        prevCards.map((c) =>
+                          c.id === card.id ? { ...c, role: newRole } : c
+                        )
+                      );
+                    }}
+                    randomizeChampion={() => generateRandomForCard(card.id)}
+                  />
+                </motion.div>
+              ))}
+            </AnimatePresence>
           </div>
         </main>
       </div>

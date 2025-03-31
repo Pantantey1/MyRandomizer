@@ -70,10 +70,10 @@ export default function Card({
         className={`relative flex flex-col items-center w-[180px] h-[489] border border-2 border-[#CBAB70] border-b-transparent`}
         style={{ background: colorCycle[cardColorIndex] }}
       >
-        <div className="start-[13px] top-[12px] absolute">
+        <div className="start-[10px] top-[12px] absolute">
           <button
             onClick={handleFButtonClick}
-            className={`border-solid border-2 border-black  w-7 h-7 rounded-full`}
+            className={`border-solid border-2 border-black w-7 h-7 rounded-full`}
             style={{ background: colorCycle[buttonColorIndex] }}
           />
         </div>

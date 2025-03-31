@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import SearchBar from "@/app/components/SearchBar";
-import CircularProgress from "@mui/material/CircularProgress"; // Importa CircularProgress
+import CircularProgress from "@mui/material/CircularProgress";
 
 interface Champion {
   id: string;
@@ -73,11 +73,10 @@ export default function Champions() {
     setFilteredChampions(results);
   }, [search, selectedRole, champions]);
 
-  // Mostrar el spinner mientras los campeones se están cargando
   if (champions.length === 0) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <CircularProgress /> {/* Spinner de carga */}
+        <CircularProgress />
       </div>
     );
   }
