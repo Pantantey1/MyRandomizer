@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "My Lol Randomizer",
-  description: "App about league of legend information",
+  description: "Our favorite page for League of Legends information.",
 };
 
 export default function RootLayout({
