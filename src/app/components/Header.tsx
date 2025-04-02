@@ -169,10 +169,10 @@ function Header() {
               alignItems: "center",
             }}
           >
+            <Divider sx={{ my: 1, width: "100%", backgroundColor: "white" }} />
             <Link href="/" passHref>
               <StyledButton onClick={handleCloseNavMenu}>INICIO</StyledButton>
             </Link>
-            <Divider sx={{ my: 1, width: "100%", backgroundColor: "white" }} />
             <Link href="/champions" passHref>
               <StyledButton onClick={handleCloseNavMenu}>CAMPEONES</StyledButton>
             </Link>

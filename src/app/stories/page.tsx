@@ -35,7 +35,7 @@ export default function Stories() {
         {storiesData.length > 0 ? (
           storiesData.map(story => (
             <Link key={story.id} href={`/stories/${story.id}`}>
-              <div className="cursor-pointer flex flex-col items-center max-w-[350px] bg-gray-100 rounded-t-lg shadow-lg border-2 border-[#CBAB70] bg-[#093a63]">
+              <div className="cursor-pointer flex flex-col items-center max-w-[350px] rounded-t-lg shadow-lg border-2 border-[#CBAB70] bg-[#093a63]">
                 <Image 
                   src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${story.image}`}
                   alt={story.title} 
