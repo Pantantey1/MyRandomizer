@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Header from "@/app/components/Header";
 import Card from "./components/Card";
 import { motion, AnimatePresence } from "framer-motion";
+import { Api_Version } from "@/constants";
 
 const icons = [
   "TopIcon.png",
@@ -62,7 +63,6 @@ type ChampionRoles = {
 };
 
 export default function Home() {
-  const version = "15.6.1";
 
   const [cards, setCards] = useState([
     {
@@ -92,7 +92,7 @@ export default function Home() {
         setChampionRoles(rolesData);
 
         const response = await fetch(
-          `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`
+          `https://ddragon.leagueoflegends.com/cdn/${Api_Version}/data/en_US/champion.json`
         );
         const data = await response.json();
         const championsArray = Object.values(data.data) as Champion[];

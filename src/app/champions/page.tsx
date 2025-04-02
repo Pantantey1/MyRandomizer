@@ -6,6 +6,7 @@ import Link from "next/link";
 import Header from "@/app/components/Header";
 import SearchBar from "@/app/components/SearchBar";
 import CircularProgress from "@mui/material/CircularProgress";
+import { Api_Version } from "@/constants";
 
 interface Champion {
   id: string;
@@ -14,7 +15,6 @@ interface Champion {
 }
 
 export default function Champions() {
-  const version = "15.6.1";
   const [champions, setChampions] = useState<Champion[]>([]);
   const [filteredChampions, setFilteredChampions] = useState<Champion[]>([]);
   const [search, setSearch] = useState("");
@@ -31,7 +31,7 @@ export default function Champions() {
       async function fetchChampions() {
         try {
           const res = await fetch(
-            `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`
+            `https://ddragon.leagueoflegends.com/cdn/${Api_Version}/data/en_US/champion.json`
           );
           const localRes = await fetch("/data/championData.json");
 
@@ -108,7 +108,7 @@ export default function Champions() {
                 <div key={champ.id} className="text-center">
                   <Link href={`/champions/${champ.id}`}>
                     <Image
-                      src={`https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champ.id}.png`}
+                      src={`https://ddragon.leagueoflegends.com/cdn/${Api_Version}/img/champion/${champ.id}.png`}
                       alt={`Imagen de ${champ.name}`}
                       width={90}
                       height={90}

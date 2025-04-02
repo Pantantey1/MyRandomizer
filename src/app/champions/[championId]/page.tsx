@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import Header from "@/app/components/Header";
 import CircularProgress from "@mui/material/CircularProgress";
+import { Api_Version } from "@/constants";
 
 interface Ability {
   id: string;
@@ -24,13 +25,12 @@ interface ChampionDetails {
 export default function ChampionDetails() {
   const { championId } = useParams();
   const [champion, setChampion] = useState<ChampionDetails | null>(null);
-  const version = "15.6.1";
 
   useEffect(() => {
     async function fetchChampionDetails() {
       try {
         const res = await fetch(
-          `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion/${championId}.json`
+          `https://ddragon.leagueoflegends.com/cdn/${Api_Version}/data/en_US/champion/${championId}.json`
         );
         const data = await res.json();
         const championDataFromApi = data.data[championId as string];
@@ -81,7 +81,7 @@ export default function ChampionDetails() {
         <div className="grid max-w-5xl mx-4 mt-12 bg-[#0a0a0a] border-2 border-[#CBAB70]">
           <div className="flex gap-4 m-5 items-center">
             <Image
-              src={`https://ddragon.leagueoflegends.com/cdn/${version}/img/passive/${champion.passive.image.full}`}
+              src={`https://ddragon.leagueoflegends.com/cdn/${Api_Version}/img/passive/${champion.passive.image.full}`}
               alt="Pasiva"
               width={64}
               height={64}
@@ -99,7 +99,7 @@ export default function ChampionDetails() {
               <div key={index} className="border-t-2 border-[#916B33]">
                 <div className="m-5 flex items-center gap-4">
                   <Image
-                    src={`https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spell.image.full}`}
+                    src={`https://ddragon.leagueoflegends.com/cdn/${Api_Version}/img/spell/${spell.image.full}`}
                     alt={`Habilidad ${index + 1}`}
                     width={64}
                     height={64}
