@@ -26,12 +26,12 @@ export default function Stories() {
   return (
     <div className="flex flex-col items-center min-h-screen">
       <Header />
-      <h1 className="text-[50px] mt-10">Historias</h1>
-      <h1 className="sm:max-w-[450px] md:max-w-[630px] lg:max-w-[950px] m-6">
+      <h1 className="text-[50px] mt-8">Historias</h1>
+      <h1 className="sm:max-w-[450px] md:max-w-[630px] lg:max-w-[950px] mx-6 mt-4">
         Este es un espacio en el que colocaré historias sobre los distintos campeones de League of Legends.
         Cada espacio pertenecerá a un campeón y una temática de este.
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-9">
         {storiesData.length > 0 ? (
           storiesData.map(story => (
             <Link key={story.id} href={`/stories/${story.id}`}>
