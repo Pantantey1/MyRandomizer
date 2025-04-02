@@ -112,7 +112,7 @@
     "Ashe": {
       "id": "Ashe",
       "roles": ["Adc"],
-      "passiveDescription": "Pasiva: Habla mucho y sus básicos y habilidades ralentizan.",
+      "passiveDescription": "Pasiva: Habla mucho. Sus básicos y habilidades ralentizan. Con más daño crítico la ralentización es mayor.",
       "spellsDescription": {
         "Ashe_q": "Q: Se activa al realizar cuatro ataques básicos. Activada sus básicos ahora golpean en rafaga.",
         "Ashe_w": "W: Tira muchas flechas en cono que ralentizan.",

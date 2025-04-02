@@ -78,6 +78,9 @@ function Header() {
           <Link href="/champions" passHref>
             <StyledButton>CAMPEONES</StyledButton>
           </Link>
+          <Link href="/stories" passHref>
+            <StyledButton>HISTORIAS</StyledButton>
+          </Link>
         </Box>
 
         <Box
@@ -172,6 +175,9 @@ function Header() {
             <Divider sx={{ my: 1, width: "100%", backgroundColor: "white" }} />
             <Link href="/champions" passHref>
               <StyledButton onClick={handleCloseNavMenu}>CAMPEONES</StyledButton>
+            </Link>
+            <Link href="/stories" passHref>
+              <StyledButton onClick={handleCloseNavMenu}>HISTORIAS</StyledButton>
             </Link>
           </Box>
         </Drawer>

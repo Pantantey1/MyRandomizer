@@ -271,6 +271,7 @@ export default function Home() {
                 onClick={removeCard}
                 disabled={cards.length <= 1}
                 className="bg-[#a52929] hover:bg-[#af3838] text-white font-bold w-[31px] py-1 rounded disabled:bg-gray-400"
+                title="Eliminar tarjeta"
               >
                 -
               </button>
@@ -278,12 +279,14 @@ export default function Home() {
                 onClick={addCard}
                 disabled={cards.length >= 5}
                 className="bg-[#306e89] hover:bg-[#3a7a91] text-white font-bold w-[31px] py-1 rounded disabled:bg-gray-400"
+                title="Agregar tarjeta"
               >
                 +
               </button>
               <button
                 onClick={generateRandomForAllCards}
                 className="bg-[#1b6d6b] hover:bg-[#2D7F79] text-white font-bold px-3 py-1 rounded"
+                title="Random a todo"
               >
                 RANDOM
               </button>

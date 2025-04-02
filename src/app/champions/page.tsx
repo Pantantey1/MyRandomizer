@@ -113,6 +113,7 @@ export default function Champions() {
                       width={90}
                       height={90}
                       className="rounded-lg cursor-pointer hover:filter hover:brightness-50 transition-all"
+                      title="Info"
                     />
                   </Link>
                   <p className="mt-2 font-semibold text-sm">

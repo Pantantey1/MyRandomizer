@@ -70,13 +70,17 @@ export default function Card({
         className={`relative flex flex-col items-center w-[180px] h-[489] border border-2 border-[#CBAB70] border-b-transparent`}
         style={{ background: colorCycle[cardColorIndex] }}
       >
+        {/* Color card button */}
         <div className="start-[10px] top-[12px] absolute">
           <button
             onClick={handleFButtonClick}
             className={`border-solid border-2 border-black w-7 h-7 rounded-full`}
             style={{ background: colorCycle[buttonColorIndex] }}
+            title="Siguiente color"
           />
         </div>
+
+        {/* Input name */}
         <div className="group pointer-events-auto">
           <input
             type="text"
@@ -84,10 +88,13 @@ export default function Card({
             onChange={(e) => setName(e.target.value)}
             className="text-lg font-bold py-3 bg-black text-white w-full text-center outline-none peer z-[3]"
           />
+          {/* Pencil icon */}
           <CreateIcon className="pointer-events-none end-[14px] top-[14px] absolute opacity-0 transition-opacity duration-200 group-hover:opacity-100 peer-focus:opacity-100 z-[2]" />
         </div>
 
+        {/* champion */}
         <div className="flex flex-col items-center">
+          {/* image */}
           {champion && (
             <Link href={`/champions/${champion.id}`} target="_blank">
               <Image
@@ -98,15 +105,20 @@ export default function Card({
                 className="hover:filter hover:brightness-50 transition-all"
               />
             </Link>
-          ) }
+          )}
+
+          {/* name */}
           {champion && (
             <div className="flex">
               <h3 className="text-lg font-bold mt-1">
                 {getChampionNames(champion.name)}
               </h3>
+
+              {/* Reroll champ */}
               <button
                 onClick={randomizeChampion}
                 className="absolute end-[0] bottom-[81.4px] bg-[#1b6d6b] hover:bg-[#2D7F79] w-8 h-8"
+                title="Campeón Random"
               >
                 <ReplayIcon />
               </button>
@@ -115,9 +127,11 @@ export default function Card({
         </div>
 
         <div className="flex justify-center gap-2 h-[70px] items-center mt-1 mb-2">
+          {/* role */}
           <div
             onClick={changeRole}
             className={`cursor-pointer ${isLocked ? "opacity-65" : ""}`}
+            title="Cambiar rol"
           >
             <Image
               src={`/${role}`}
@@ -128,9 +142,11 @@ export default function Card({
             />
           </div>
 
+          {/* Lock role */}
           <button
             onClick={changeIcon}
             className="cursor-pointer absolute end-[35px]"
+            title="Bloquear Rol"
           >
             {isLocked ? <LockIcon /> : <LockOpenIcon />}
           </button>

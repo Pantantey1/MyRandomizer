@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Header from "@/app/components/Header";
-import CircularProgress from "@mui/material/CircularProgress"; // Importa CircularProgress
+import CircularProgress from "@mui/material/CircularProgress";
 
 interface Ability {
   id: string;
