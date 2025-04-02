@@ -93,7 +93,7 @@ export default function Champions() {
 
       <Header />
       <div className="flex justify-center">
-        <div className="relative flex flex-col items-center gap-4 py-5 my-8 mx-4 max-w-5xl min-h-[500px] border-2 border-[#CBAB70] bg-[#0a0a0a]">
+        <div className="relative flex flex-col items-center gap-4 py-5 my-8 mx-4 lg:w-[1024px] min-h-[500px] border-2 border-[#CBAB70] bg-[#0a0a0a]">
           <div className="border-b border-[#CBAB70] pb-2 px-2">
             <SearchBar
               search={search}
