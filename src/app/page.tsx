@@ -262,7 +262,7 @@ export default function Home() {
         style={{ backgroundImage: "url(/fondo1.png)" }}
       ></div>
       <Header />
-      <div className="flex items-center justify-center mt-12">
+      <div className="flex items-center justify-center mt-12 ">
         <main className="flex flex-col gap-8 row-start-2 items-center">
           <div className="flex w-full justify-center gap-2">
             <h2 className="text-xl font-bold">Tarjetas:</h2>

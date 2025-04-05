@@ -324,7 +324,7 @@
       "passiveDescription": "Pasiva: Cada tres ataques al mismo objetivo le da daño adicional y también velocidad de movimiento si es un campeón.",
       "spellsDescription": {
         "Ekko_q": "Q: Lanza una granada temporal que ralentiza y hace daño a todos los objetivos en su camino, también golpea de vuelta.",
-        "Ekko_w": "W: Lanza una convergencia que tras poco tiempo crea una cúpula que ralentiza a los enemigos, si ekko toca esta cúpula aturde todos los objetivos dentro.",
+        "Ekko_w": "W: Lanza una convergencia que tras poco tiempo crea una cúpula que ralentiza a los enemigos, si ekko toca esta cúpula aturde todos los objetivos dentro y gana un escudo.",
         "Ekko_e": "E: Realiza un salto y su siguiente ataque básico se puede lanzar con rango, causa daño adicional y lo deja junto al objetivo.",
         "Ekko_r": "R: Vuelve unos segundos en el tiempo, a una posición en la que se encontraba anteriormente y se cura parte de su vida."
       }

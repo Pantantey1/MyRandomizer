@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "My Lol Randomizer",
-  description: "Our favorite page for League of Legends information.",
+  description: "Página dedicada a compartir información fácil de entender sobre League of Legends en español.",
 };
 
 export default function RootLayout({
