@@ -1772,10 +1772,10 @@
     },
     "Yorick": {
       "id": "Yorick",
-      "roles": ["Top"],
+      "roles": ["Top", "Jg"],
       "passiveDescription": "Pasiva: Puede invocar a caminantes de la niebla para que ataquen a los enemigos cercanos. Cada pocos enemigos que mueren cerca dejan una tumba.",
       "spellsDescription": {
-        "Yorick_q": "Q: Inflige daño adicional en su siguiente ataque y se cura. Si muere un objetivo, se cavará una tumba. Presionar esta habilidad al tener 3 o 4 tumbas invocará los entes de la niebla.",
+        "Yorick_q": "Q: Inflige daño adicional en su siguiente ataque y se cura. Si muere un objetivo o es un campeón/monstruo grande, se cavará una tumba. Presionar esta habilidad al tener 3 o 4 tumbas invocará los entes de la niebla.",
         "Yorick_w": "W: Invoca un muro destruible en la ubicación objetivo que bloqueará el movimiento enemigo.",
         "Yorick_e": "E: Lanza un glóbulo de Niebla Negra que inflige daño, ralentiza y marca a los enemigos. Los caminantes de la niebla saltan hacia los enemigos marcados y les hace daño.",
         "Yorick_r": "R: Invoca a la Dama de la Niebla, que provoca que los ataques de Yorick al objetivo de la Dama inflijan daño adicional. La Dama además convertirá a los enemigos muertos en caminantes."

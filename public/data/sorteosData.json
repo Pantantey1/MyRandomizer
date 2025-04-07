@@ -1,0 +1,14 @@
+[
+    {
+        "id": 2,
+        "mes": "Mayo",
+        "participantes": "El penúltimo día de cada mes agregaré a todos los participantes",
+        "ganador": "El último dia de cada mes se dará a conocer"
+    },
+    {
+        "id": 1,
+        "mes": "Abril",
+        "participantes": "El penúltimo día de cada mes agregaré a todos los participantes",
+        "ganador": "El último dia de cada mes se dará a conocer"
+    }
+]
