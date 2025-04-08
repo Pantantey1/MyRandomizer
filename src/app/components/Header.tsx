@@ -81,9 +81,7 @@ function Header() {
           <Link href="/stories" passHref>
             <StyledButton>HISTORIAS</StyledButton>
           </Link>
-          <Link href="/sorteos" passHref>
-            <StyledButton>SORTEOS</StyledButton>
-          </Link>
+          
           <Link href="/apoyo" passHref>
             <StyledButton>APOYO</StyledButton>
           </Link>
@@ -185,9 +183,7 @@ function Header() {
             <Link href="/stories" passHref>
               <StyledButton onClick={handleCloseNavMenu}>HISTORIAS</StyledButton>
             </Link>
-            <Link href="/sorteos" passHref>
-              <StyledButton onClick={handleCloseNavMenu}>SORTEOS</StyledButton>
-            </Link>
+            
             <Link href="/apoyo" passHref>
               <StyledButton onClick={handleCloseNavMenu}>APOYO</StyledButton>
             </Link>

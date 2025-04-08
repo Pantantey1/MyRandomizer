@@ -39,11 +39,6 @@ export default function ApoyoPage() {
             bienvenida y muy apreciada! 🙏
           </p>
 
-          <p className="text-gray-700 text-lg mb-4">
-            El último día de cada mes estaré sorteando RP entre todas las
-            personas que me hayan donado cualquier cantidad. Solamente deben
-            colocar su nick en la donación.
-          </p>
 
           <div className="mt-8 text-center">
             <p className="text-gray-700 text-lg mb-4">
