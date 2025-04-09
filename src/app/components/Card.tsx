@@ -103,6 +103,7 @@ export default function Card({
                 width={200}
                 height={364}
                 className="hover:filter hover:brightness-50 transition-all"
+                unoptimized
               />
             </Link>
           )}
@@ -139,6 +140,7 @@ export default function Card({
               width={45}
               height={45}
               className="hover:opacity-80"
+              unoptimized
             />
           </div>
 

@@ -31,6 +31,7 @@ export default function SearchBar({ search, setSearch, selectedRole, setSelected
               alt={`${role} icon`}
               width={27}
               height={27}
+              unoptimized
             />
           </div>
         ))}
