@@ -42,6 +42,7 @@ export default function Stories() {
                   width={300} 
                   height={177} 
                   className="rounded-t-lg"
+                  unoptimized
                 />
                 <h2 className="text-lg font-bold my-2 text-white">{story.title}</h2>
               </div>

@@ -86,6 +86,7 @@ export default function ChampionDetails() {
               width={64}
               height={64}
               className="rounded-lg"
+              unoptimized
             />
             <p className="text-sm text-white">
               {champion.passive.description || "Descripción no disponible"}

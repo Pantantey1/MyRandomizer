@@ -33,6 +33,7 @@ const Logo = () => (
       width={40}
       height={40}
       style={{ cursor: "pointer" }}
+      unoptimized
     />
   </Link>
 );

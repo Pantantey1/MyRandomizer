@@ -41,6 +41,7 @@ export default function StoryDetail() {
           width={1000}
           height={600}
           className="rounded-t-lg"
+          unoptimized
         />
         <div className="mx-5 text-center my-5">
           <h1 className="text-4xl font-bold text-black mt-4 font-['Roboto', sans-serif]">
