@@ -9,7 +9,7 @@ export default function ApoyoPage() {
         className="fixed top-0 left-0 w-screen h-screen bg-cover bg-no-repeat z-[-1]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/apoyo.jpg)",
+            "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/apoyo.webp)",
         }}
       ></div>
       <Header />

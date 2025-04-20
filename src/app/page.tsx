@@ -259,7 +259,7 @@ export default function Home() {
     <div className="font-[family-name:var(--font-geist-sans)]">
       <div
         className="fixed top-0 left-0 w-screen h-screen bg-cover bg-no-repeat z-[-1]"
-        style={{ backgroundImage: "url(/fondo1.png)" }}
+        style={{ backgroundImage: "url(/fondo1.webp)" }}
       ></div>
       <Header />
       <div className="flex items-center justify-center mt-12 ">

@@ -72,7 +72,7 @@ export default function ChampionDetails() {
         className="fixed top-0 left-0 w-screen h-screen bg-cover bg-no-repeat z-[-1]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(/fondo2.png)",
+            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(/fondo2.webp)",
         }}
       ></div>
 
