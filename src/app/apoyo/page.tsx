@@ -4,7 +4,14 @@ import Header from "../components/Header";
 
 export default function ApoyoPage() {
   return (
-    <div>
+    <div className="relative min-h-screen">
+      <div
+        className="fixed top-0 left-0 w-screen h-screen bg-cover bg-no-repeat z-[-1]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/apoyo.jpg)",
+        }}
+      ></div>
       <Header />
       <div className="min-h-screen flex flex-col items-center justify-center px-6 py-12">
         <div className="bg-gray-100 rounded-2xl shadow-xl p-8 max-w-2xl w-full border-2 border-[#CBAB70]">

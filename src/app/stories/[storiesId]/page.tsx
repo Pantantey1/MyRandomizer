@@ -21,18 +21,31 @@ export default function StoryDetail() {
     fetch("/data/storiesData.json")
       .then((response) => response.json())
       .then((data: Story[]) => {
-        const selectedStory = data.find((story) => story.id === Number(storiesId));
+        const selectedStory = data.find(
+          (story) => story.id === Number(storiesId)
+        );
         setStory(selectedStory || null);
       })
       .catch((error) => console.error("Error loading story:", error));
   }, [storiesId]);
 
   if (!story) {
-    return <p className="text-white mt-4">Cargando historia...</p>;
-  }
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="w-12 h-12 border-4 border-[#CBAB70] border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    );
+  }  
 
   return (
     <div className="flex flex-col items-center min-h-screen">
+      <div
+        className="fixed top-0 left-0 w-screen h-screen bg-cover bg-no-repeat z-[-1]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/stories.jpg)",
+        }}
+      ></div>
       <Header />
       <div className="max-w-[950px] bg-gray-50 rounded-lg shadow-lg border-2 border-[#CBAB70] my-10 mx-5">
         <Image

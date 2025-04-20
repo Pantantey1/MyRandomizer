@@ -863,8 +863,8 @@
       "passiveDescription": "Pasiva: Después de unos segundos sin recibir daño, gana un escudo que lo protege del siguiente ataque o habilidad.",
       "spellsDescription": {
         "Malzahar_q": "Q: Abre dos portales que disparan proyectiles hacia el centro y estos dañan y silencian a los enemigos alcanzados.",
-        "Malzahar_w": "W: Invoca Entes del Vacío para atacar a los enemigos cercanos. Dan prioridad a los objetivos marcados con su E.",
-        "Malzahar_e": "E: Infecta a un objetivo lo cual le causa daño por segundo. Si el objetivo muere la infección se transfiere al enemigo más cercano.",
+        "Malzahar_w": "W: Invoca Entes del Vacío para atacar a los enemigos cercanos. Dan prioridad a los objetivos marcados con su E. Usar otra habilidad aumenta en uno los Entes invocados (máximo de 3).",
+        "Malzahar_e": "E: Infecta a un objetivo, esto causa daño por segundo. Golpear a un infectado con su Q o R reinicia la duración. Si el objetivo muere la infección se transfiere al enemigo más cercano y recuperas un poco de maná.",
         "Malzahar_r": "R: Malzahar suprime a un campeón enemigo."
       }
     },
@@ -1346,7 +1346,7 @@
       "roles": ["Top"],
       "passiveDescription": "Pasiva: Obtiene velocidad de movimiento al tocar campeón aliado o enemigo.",
       "spellsDescription": {
-        "Singed_q": "Q: Deja un rastro de veneno por donde pasa que daña a los enemigos.",
+        "Singed_q": "Q: Deja un rastro de veneno por donde pasa que daña a los enemigos. Si un minion aliado ejecuta a un minion enemigo envenenado, Singed obtiene el oro.",
         "Singed_w": "W: Lanza un frasco de Megadhesivo al suelo que ralentiza y no deja utilizar desplazamiento a todos los enemigos que lo pisen.",
         "Singed_e": "E: Daña un enemigo y lo manda a volar hacia atrás de Singed. Se aturde si cae sobre el Megadhesivo.",
         "Singed_r": "R: Aumenta el daño y su veneno causa Heridas Graves."
