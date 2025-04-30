@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Header from "../components/Header";
+import { Last_Update } from "@/constants";
 
 export default function ApoyoPage() {
   return (
@@ -14,7 +15,7 @@ export default function ApoyoPage() {
       ></div>
       <Header />
       <div className="min-h-screen flex flex-col items-center justify-center px-6 py-12">
-        <div className="bg-gray-100 rounded-2xl shadow-xl p-8 max-w-2xl w-full border-2 border-[#CBAB70]">
+        <div className="bg-gray-100 rounded-2xl shadow-xl p-7 max-w-2xl w-full border-2 border-[#CBAB70]">
           <h1 className="text-3xl font-bold text-center text-[#093a63] mb-6">
             ¡Gracias por usar esta página!
           </h1>
@@ -45,7 +46,6 @@ export default function ApoyoPage() {
             creciendo, puedes hacer una pequeña donación. ¡Cualquier ayuda es
             bienvenida y muy apreciada! 🙏
           </p>
-
 
           <div className="mt-8 text-center">
             <p className="text-gray-700 text-lg mb-4">
@@ -96,6 +96,9 @@ export default function ApoyoPage() {
               </div>
             </div>
           </div>
+          <p className="text-gray-700 text-lg mt-7 text-center">
+            Última actualización: {Last_Update}
+          </p>
         </div>
       </div>
     </div>

@@ -123,12 +123,12 @@
     "AurelionSol": {
       "id": "AurelionSol",
       "roles": ["Mid"],
-      "passiveDescription": "Pasiva: Al hacer daño evoluciona sus habilidades.",
+      "passiveDescription": "Pasiva: Al hacer daño colecciona cargas que evolucionan sus habilidades.",
       "spellsDescription": {
         "AurelionSol_q": "Q: Lanza un rayo, si carga hace daño extra. Evolucionada hace más daño.",
-        "AurelionSol_w": "W: Vuela y hace más daño. Evolucionada vuela más.",
+        "AurelionSol_w": "W: Vuela. Mientras vuela siempre tendrá disposible su Q y hace más daño. Evolucionada vuela más.",
         "AurelionSol_e": "E: Deja un agujero negro que ejecuta si el objetivo tiene poca vida. Evolucionada es más grande.",
-        "AurelionSol_r": "R: Hace que caiga una estrella que aturde. Evolucionada explota."
+        "AurelionSol_r": "R: Hace que caiga una estrella que aturde. Evolucionada explota haciendo daño en gran área."
       }
     },
     "Aurora": {
@@ -639,7 +639,7 @@
     },
     "Karthus": {
       "id": "Karthus",
-      "roles": ["Jg"],
+      "roles": ["Jg", "Adc"],
       "passiveDescription": "Pasiva: Tras morir, se convierte en espíritu y sigue lanzando hechizos.",
       "spellsDescription": {
         "Karthus_q": "Q: Tira una bola de energia en una ubicación.",
@@ -1772,7 +1772,7 @@
     },
     "Yorick": {
       "id": "Yorick",
-      "roles": ["Top", "Jg"],
+      "roles": ["Top"],
       "passiveDescription": "Pasiva: Puede invocar a caminantes de la niebla para que ataquen a los enemigos cercanos. Cada pocos enemigos que mueren cerca dejan una tumba.",
       "spellsDescription": {
         "Yorick_q": "Q: Inflige daño adicional en su siguiente ataque y se cura. Si muere un objetivo o es un campeón/monstruo grande, se cavará una tumba. Presionar esta habilidad al tener 3 o 4 tumbas invocará los entes de la niebla.",

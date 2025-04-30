@@ -265,7 +265,7 @@ export default function Home() {
       <div className="flex items-center justify-center mt-12 ">
         <main className="flex flex-col gap-8 row-start-2 items-center">
           <div className="flex w-full justify-center gap-2">
-            <h2 className="text-xl font-bold">Tarjetas:</h2>
+            <h2 className="text-xl font-bold">Jugadores:</h2>
             <div className="flex gap-2 ms-2">
               <button
                 onClick={removeCard}
